@@ -1,0 +1,98 @@
+<div class="box">
+  <div class="container bg-white">
+    <div class="row">
+      <div class="col-12 remove-padding">
+        <mat-tab-group>
+          <mat-tab label="评估报告">
+            <div class="container">
+              <div class="row content-box">
+                <div class="col-6 content-left-box" *ngIf="evaluation_report">
+                  <div class="row">
+                    <div class="col-12 get-grade">
+                      <span>得分： {{evaluation_report.grade}}</span>
+                    </div>
+                    <div class="col-12 content-item">
+                      <h5>
+                        <span>试卷： {{evaluation_report.examname}}</span>
+                        <app-course-star></app-course-star>
+                        <!--<app-course-assess></app-course-assess>-->
+                      </h5>
+                    </div>
+                    <div class="col-12 content-item">
+                      <div>正确题数： {{evaluation_report.correctnum}}/{{evaluation_report.total}}</div>
+                    </div>
+                    <div class="col-12 content-item">
+                      <div>得分： {{evaluation_report.grade }}</div>
+                    </div>
+                    <div class="col-12 content-item">
+                      <div>用时： 00:00:00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="content-right-box">
+                    <div class="content-right-box-header">
+                      <span>我的技能图谱</span>
+                      <mat-form-field>
+                        <mat-select [(value)]="selected">
+                          <mat-option value="java工程师">java工程师</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    </div>
+                    <div>
+                      <div echarts [options]="chartOption" class="demo-chart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="答案解析">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="analysis-header">
+                    <h5>每题得分</h5>
+                    <div>
+                      <span *ngFor="let page of pages" (click)="pageClick(page)">
+                        <a [class.active]="page === choicePage">{{page}}</a>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="analysis-content">
+                    <div class="analysis-content-header">
+                      <div class="question">
+                        <mat-chip-list>
+                          <mat-chip>{{choicePage}}</mat-chip>
+                        </mat-chip-list>
+                        <!--<span class="question-number"></span>-->
+                        <span>下面有关jsp中静态include和动态include的区别，说法错误的是？</span>
+                      </div>
+                      <div>
+                        <button color="primary" mat-raised-button>上一题</button>
+                        <button color="primary" mat-raised-button>下一题</button>
+                      </div>
+                    </div>
+                    <div class="analysis-content-body">
+                      <h5>
+                        <span>正确答案: C</span>
+                        <span>你的答案: 空</span>
+                        <a>(错误)</a>
+                      </h5>
+                      <div class="option">程序计数器是一个比较小的内存区域，用于指示当前线程所执行的字节码执行到了第几行，是线程隔离的</div>
+                      <div class="option">程序计数器是一个比较小的内存区域，用于指示当前线程所执行的字节码执行到了第几行，是线程隔离的</div>
+                      <div class="option">程序计数器是一个比较小的内存区域，用于指示当前线程所执行的字节码执行到了第几行，是线程隔离的</div>
+                      <div class="option">程序计数器是一个比较小的内存区域，用于指示当前线程所执行的字节码执行到了第几行，是线程隔离的</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </div>
+
+  </div>
+</div>
+

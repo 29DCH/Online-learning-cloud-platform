@@ -1,0 +1,19 @@
+<mat-card (mouseenter)="toggleState()" (mouseleave)="toggleState()">
+  <img mat-card-image [src]="course.picturepath">
+  <mat-card-content>
+    <p class="free-course-name" [title]="course.coursename">
+      <a [@courseState]="state" (click)="routeClick(course.coursetailnum)">{{course.coursename}}</a>
+    </p>
+    <p class="center">
+      <!--<span>实战</span>-->
+      <span>{{course.coursedifficulty}}</span>
+      <mat-icon svgIcon="person-outline"></mat-icon>
+      <span>{{course.coursestudypeople}}</span>
+      <!--<app-course-star></app-course-star>-->
+    </p>
+    <p class="free-course-summaru"
+       matTooltipClass="example-tooltip-color"
+       [matTooltip]="course.coursesummary" >{{course.coursesummary}}</p>
+  </mat-card-content>
+</mat-card>
+

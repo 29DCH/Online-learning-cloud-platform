@@ -1,0 +1,33 @@
+button {
+  outline: none;
+}
+
+.new-comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 0 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.new-comment-header h4 {
+  margin-bottom: 0;
+}
+
+.new-comment-header mat-icon {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.new-comment-bottom {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem 1rem 0;
+
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #ff0000;
+}

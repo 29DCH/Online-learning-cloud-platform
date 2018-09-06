@@ -1,0 +1,24 @@
+<!--项目组件的组要内容-->
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{item.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="item.coverImg" alt="项目封面">
+  <mat-card-content>
+    {{item.desc}}
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button type="button" (click)="onEditClick()">
+      <mat-icon>note</mat-icon>
+      <span>编辑</span>
+    </button>
+    <button mat-button type="button" (click)="onInvalidClick()">
+      <mat-icon>group_add</mat-icon>
+      <span>邀请</span>
+    </button>
+    <button mat-button type="button" (click)="onDelProjectClick()">
+      <mat-icon>delete</mat-icon>
+      <span>删除</span>
+    </button>
+  </mat-card-actions>
+</mat-card>

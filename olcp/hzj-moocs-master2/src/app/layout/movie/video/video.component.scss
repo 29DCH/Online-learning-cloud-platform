@@ -1,0 +1,43 @@
+.video-box {
+  width: 100%;
+  height: 70%;
+  background: #FF9900;
+}
+
+.course-menu-box {
+  width: 25%;
+}
+
+.course-menu-box mat-nav-list {
+  padding-top: 0px;
+}
+
+.video-content {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.video-content-left {
+  height: 100%;
+  flex: 1;
+  background-color: greenyellow;
+}
+
+.video-content-right {
+  height: 100%;
+  width: 3rem;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-content-right button{
+  outline:none;
+}
+
+
+//下面的要删掉

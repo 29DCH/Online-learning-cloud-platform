@@ -1,0 +1,159 @@
+.header {
+  background: #3d444c;
+  color: #ccc;
+}
+
+.header button:hover {
+  color: #fff;
+}
+.flex-remainning-space {
+  //使用flex填满剩余空间
+  flex: 1 1 auto;
+}
+
+
+.header-nav span {
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  outline: none;
+}
+
+.header-nav span:hover {
+  color: #fff;
+}
+
+.header-nav a {
+  margin-right: 1rem;
+  color: #ccc;
+}
+
+
+.header-nav a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header-nav a.active {
+  color: #ffffff;
+}
+
+.search-form {
+  width: 25%;
+}
+
+.search-form .search-full-width {
+  width: 100%;
+}
+.search-icon {
+  cursor: pointer;
+  position: relative;
+  top: .5rem;
+}
+
+button {
+  outline: none;
+}
+
+.header-nav a {
+  cursor: pointer;
+}
+
+.login {
+  position: relative;
+  height: 100%;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login img {
+  max-height: 2.5rem;
+  max-width: 2.5rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: .9;
+}
+
+.login img:hover {
+  opacity: 1;
+}
+
+.login:hover .login-menu {
+  display: block;
+}
+
+.login-menu {
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  top: 100%;
+  display: none;
+  width: 450%;
+  padding-top: 2rem;
+  border-bottom-right-radius: .7rem;
+  border-bottom-left-radius: .7rem;
+
+}
+
+.login-menu img {
+  max-height: 4rem;
+  max-width: 4rem;
+  opacity: 1;
+
+}
+
+.login-menu-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.login-menu-top a {
+  color: #07111b;
+}
+
+.login-menu-top-right {
+  padding-left: 1rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-menu-top-right .title {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.meta a {
+  color: #93999f;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.login-menu-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #4d555d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #edf1f2;
+}
+
+.login-menu-center button {
+  background: #F8FAFC;
+  width: 45%;
+}
+
+.login-menu-bottom {
+  color: #93999F;
+  font-size: .9rem;
+  padding: .5rem 0 .5rem 1rem;
+
+}

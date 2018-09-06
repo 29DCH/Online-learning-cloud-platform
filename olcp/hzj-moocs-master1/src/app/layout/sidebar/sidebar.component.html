@@ -1,0 +1,25 @@
+<mat-nav-list>
+  <h3 mat-subheader>学习计划</h3>
+  <mat-list-item routerLink="/plan/project" (click)="onNavClick()">
+    <mat-icon mat-list-icon svgIcon="projects" class="mat-list-item-center"></mat-icon>
+    <span mat-line>学习计划首页</span>
+    <span mat-line mat-subheader>查看你的所有计划</span>
+  </mat-list-item>
+  <h3 mat-subheader>日历</h3>
+  <mat-list-item routerLink="/plan/tasklist" (click)="onNavClick()">
+    <mat-icon mat-list-icon svgIcon="month" class="mat-list-item-center"></mat-icon>
+    <span mat-line>月视图</span>
+    <span mat-line mat-subheader>按月查看你的计划</span>
+  </mat-list-item>
+
+  <mat-list-item>
+    <mat-icon mat-list-icon svgIcon="week" class="mat-list-item-center"></mat-icon>
+    <span mat-line>周视图</span>
+    <span mat-line mat-subheader>按周查看你的计划</span>
+  </mat-list-item>
+  <mat-list-item>
+    <mat-icon mat-list-icon [svgIcon]="taday" class="mat-list-item-center"></mat-icon>
+    <span mat-line>日视图</span>
+    <span mat-line mat-subheader>按日查看你的计划</span>
+  </mat-list-item>
+</mat-nav-list>

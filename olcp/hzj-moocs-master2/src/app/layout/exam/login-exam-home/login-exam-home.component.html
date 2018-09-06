@@ -1,0 +1,120 @@
+<div class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <div class="row exam-menu-box">
+          <div class="col-12">
+            <h5 class="title"><i></i>专项练习</h5>
+          </div>
+          <div class="col-12 exam-memu-top">
+            <span>共刷题数: <a href="#">66</a></span>
+            <span>做对题数: <a href="#">36</a></span>
+            <span>最近一周评分: <a href="#">0</a></span>
+            <span>排名: <a href="#">0</a></span>
+          </div>
+          <div class="col-12">
+            <table class="table">
+              <thead class="table-menu-top">
+              <tr>
+                <th>选择</th>
+                <th>最近练习知识点</th>
+                <th>做题数/题目总数</th>
+                <th>正确率</th>
+                <th>练习</th>
+              </tr>
+              </thead>
+              <tbody class="table-menu-list">
+              <tr>
+                <td>
+                  <mat-checkbox></mat-checkbox>
+                </td>
+                <td>
+                  <span>HTML/CSS</span>
+                </td>
+                <td>
+                  <span>/666</span>
+                </td>
+                <td>
+                  <span>6</span>
+                </td>
+                <td>
+                  <button mat-raised-button (click)="launchChoiceDialog()">专项练习</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <mat-checkbox></mat-checkbox>
+                </td>
+                <td>
+                  <span>HTML/CSS</span>
+                </td>
+                <td>
+                  <span>/666</span>
+                </td>
+                <td>
+                  <span>6</span>
+                </td>
+                <td>
+                  <button mat-raised-button>专项练习</button>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-12 table-menu-bottom">
+            <div>
+              <button mat-raised-button>练习选中技能</button>
+              <button mat-raised-button>练习其他技能</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-12 exam-right-header">
+            <div class="exam-right-header-left">
+              <h4>周三</h4>
+              <span>08-01</span>
+            </div>
+            <div class="exam-right-header-center">
+              <p>已打卡1天</p>
+              <p>排名>100</p>
+            </div>
+            <div>
+              <button mat-raised-button color="primary">今日打卡</button>
+            </div>
+          </div>
+          <div class="col-12 bg-white exam-right-center">
+            <div class="exam-right-avatar">
+              <img src="assets/img/avatar01.jpg" class="img-fluid">
+              <p><a href="#">hzjanger</a></p>
+              <div class="exam-right-center-bottom">
+                <span>成就值<a href="#">35</a></span>
+                <span>|</span>
+                <span>本周新增<a href="#">0</a></span>
+                <span>|</span>
+                <span>排名<a href="#">666</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 bg-white exam-right-bottom-box">
+            <div class="exam-right-bottom-top">
+              <span>我的技能图谱</span>
+              <mat-form-field>
+                <mat-select [(value)]="selected">
+                  <mat-option value="前端工程师">前端工程师</mat-option>
+                  <mat-option value="java工程师">java工程师</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div>
+              <div echarts [options]="chartOption" class="demo-chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

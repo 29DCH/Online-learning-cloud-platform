@@ -1,0 +1,65 @@
+.problem-list-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+  border-bottom: 1px solid #d0d6d9;
+}
+.problem-list-box img {
+  max-height: 40px;
+  max-width: 40px;
+  margin-right: 1rem;
+  align-self: flex-start;
+
+}
+
+
+.problem-list-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.problem-list-box-right-header, .problem-list-box-right-header a {
+  color: #787d82;
+  font-size: .8rem;
+}
+
+.problem-list-box-right-header a {
+  margin-left: 1rem;
+}
+
+.problem-list-box-right-header a:hover {
+  color: #ff0000;
+}
+
+
+.problem-list-box-right-content {
+  margin-top: .5rem;
+}
+
+.problem-list-box-right-content a {
+  color: #14191e;
+}
+
+.problem-list-box-right-content a:hover {
+  color: #ff0000;
+}
+
+.problem-list-box-right-footer a {
+  color: #b5b9bc;
+}
+
+.problem-list-box-right-footer>a {
+  margin-right: 2rem;
+}
+
+.problem-list-box-right-footer button {
+  margin-right: .5rem;
+}
+
+.problem-list-box-right-footer a span {
+  color: #ff7802;
+}
+

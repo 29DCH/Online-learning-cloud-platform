@@ -1,0 +1,55 @@
+.personal-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.personal-info-header div mat-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .5rem;
+  color: #008cc8;
+}
+
+.personal-info-header div {
+  color: #93999f;
+  cursor: pointer;
+}
+
+.personal-info-header div:hover {
+  color: #008cc8;
+}
+
+.personal-info-wapper {
+  display: flex;
+  padding: .5rem 0 .5rem 2.4rem ;
+}
+
+.personal-info-wapper .list-info-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.list-info-box>div:first-child {
+  background: #f3f5f7;
+  height: 100%;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-info-box>div:last-child {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d9dde1;
+  margin-left: .5rem;
+  padding-left: 1rem;
+  height: 100%;
+  width: 83%;
+}

@@ -1,0 +1,69 @@
+.personal-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.personal-avatar-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.img-circle {
+  max-width: 92px;
+  max-height: 92px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.personal-name-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.personal-icon-box {
+  color: #999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.personal-icon-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.personal-icon-box div mat-icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-flex;
+}
+
+.personal-acount-box {
+  padding: 0;
+}
+
+.personal-acount-box h5 {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  padding:0 0 1rem 1rem;
+  border-bottom: 1px solid #d9dde1;
+}
+
+.personal-acount-box mat-nav-list mat-list-item p {
+  order: 1;
+}
+
+.personal-acount-box mat-nav-list mat-list-item mat-icon {
+  order: 2;
+  display: inline-flex;
+}

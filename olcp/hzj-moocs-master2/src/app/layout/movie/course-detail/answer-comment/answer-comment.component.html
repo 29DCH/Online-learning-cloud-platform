@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-7 answer-nav-left">
+      <mat-chip-list>
+        <mat-chip [ngClass]="{'active': select_app === '评论'}" (click)="changeAppClick('评论')">评论</mat-chip>
+        <mat-chip [ngClass]="{'active': select_app === '问答'}" (click)="changeAppClick('问答')">问答</mat-chip>
+      </mat-chip-list>
+    </div>
+    <div class="col-5 answer-nav-right">
+      <button mat-raised-button color="primary" (click)="releaseClick()">我要发布</button>
+    </div>
+  </div>
+</div>
+<app-disscuss *ngIf="select_app === '评论'" [commentPage]="commentPage"></app-disscuss>
+<app-student-comment *ngIf="select_app === '问答'" ></app-student-comment>

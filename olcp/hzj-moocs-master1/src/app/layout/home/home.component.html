@@ -1,0 +1,19 @@
+<mat-drawer-container [class.unicorn-dark-theme]="isDark">
+  <!--默认是over-->
+  <mat-drawer #drawer mode="over">
+    <app-sidebar (navClick)="drawer.toggle()"></app-sidebar>
+  </mat-drawer>
+  <div class="container-box">
+    <header>
+      <!--从子组件接受过来的事件, 名称要与子组件一样-->
+      <app-header (onVoted)="drawer.toggle()" (choiceDark)="choiceTheme($event)"></app-header>
+    </header>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </div>
+</mat-drawer-container>
+

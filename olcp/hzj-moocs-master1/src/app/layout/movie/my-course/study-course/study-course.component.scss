@@ -1,0 +1,49 @@
+.my-course-box {
+  margin-top: 8px;
+}
+.study-course-list-box {
+  margin-top: 1rem;
+}
+
+.my-course-title span {
+  color: #787d82;
+  font-size: .9rem;
+}
+
+.course-list-detail-box {
+  display: flex;
+  align-items: center;
+  color: #787d82;
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+.course-list-detail-box span {
+  margin: .5rem 1.8rem .5rem 0;
+
+}
+
+.course-list-detail-box>span:nth-child(1){
+  color: #f01400;
+}
+
+.course-list-footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-list-footer-box p {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.course-list-footer-box p a {
+  color: #787d82;
+}
+
+.course-list-footer-box p a:hover {
+  color: #14191e;
+  text-decoration: none;
+}

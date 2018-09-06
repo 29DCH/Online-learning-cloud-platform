@@ -1,0 +1,95 @@
+<div class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <mat-tab-group dynamicHeight class="bg-white search-nav">
+          <mat-tab label="全站">
+            <div class="example-small-box mat-elevation-z4">
+              <app-search-course *ngIf="search" [courses]="search"></app-search-course>
+              <div class="row">
+                <div class="col-12 more-result-box">
+                  <div routerLink="course">更多课程搜索结果</div>
+                </div>
+              </div>
+              <app-search-blog></app-search-blog>
+              <div class="row">
+                <div class="col-12 more-result-box">
+                  <div routerLink="blog">更多手记搜索结果</div>
+                </div>
+              </div>
+              <app-search-problem></app-search-problem>
+              <div class="row">
+                <div class="col-12 more-result-box">
+                  <div routerLink="ask">更多猿问搜索结果</div>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="课程">
+            <div class="example-large-box mat-elevation-z4">
+              <app-search-course></app-search-course>
+            </div>
+          </mat-tab>
+          <mat-tab label="手记">
+            <div class="example-large-box mat-elevation-z4">
+              <app-search-blog></app-search-blog>
+            </div>
+          </mat-tab>
+          <mat-tab label="猿问">
+            <div class="example-large-box mat-elevation-z4">
+              <app-search-problem></app-search-problem>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+
+        <router-outlet></router-outlet>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="search-value">
+              <span>java...</span>相关内容推荐
+            </h5>
+          </div>
+          <div class="col-12">
+            <div class="row recommend-course-list bg-white" *ngFor="let img of imgs">
+              <div class="col-5">
+                <img src="assets/img/java.jpg" class="img-fluid">
+              </div>
+              <div class="col-7">
+                <p class="recommend-title" title="Android自动化测试实战 Java篇   主流工具 框架 脚本">Android自动化测试实战 Java篇   主流工具 框架 脚本</p>
+                <p>
+                  <span>￥179.00</span>
+                  <span>初级</span>
+                  <mat-icon svgIcon="person-outline"></mat-icon>
+                  <span>999</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h5 class="search-value">
+              <span>java...</span>相关讲师
+            </h5>
+          </div>
+          <div class="col-12">
+            <mat-grid-list cols="3" rowHeight="1:1">
+              <mat-grid-tile *ngFor="let img of imgs">
+                <mat-grid-tile-header>
+                  <div>
+                    <img src="assets/img/java.jpg" class="img-fluid teacher-avatar">
+                  </div>
+                </mat-grid-tile-header>
+                <mat-grid-tile-footer>
+                  <div>猿生活</div>
+                </mat-grid-tile-footer>
+              </mat-grid-tile>
+            </mat-grid-list>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

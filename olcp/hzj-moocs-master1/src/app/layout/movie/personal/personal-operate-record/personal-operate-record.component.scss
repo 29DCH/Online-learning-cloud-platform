@@ -1,0 +1,32 @@
+.personal-operation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.personal-operation-header h5 {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.personal-operation-header h5 span {
+  font-size: .9rem;
+  margin-left: 1rem;
+  color: #93999f;
+  font-weight: 400;
+}
+
+.personal-operation-header a:hover {
+  text-decoration: none;
+}
+
+
+table {
+  width: 100%;
+}
+
+.operation-table-box {
+  margin-top: 2rem;
+}

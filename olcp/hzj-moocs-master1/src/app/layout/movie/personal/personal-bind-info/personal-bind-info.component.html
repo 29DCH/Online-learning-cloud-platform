@@ -1,0 +1,47 @@
+<div class="container bind-info-box">
+  <div class="row">
+    <div class="col-12 bind-info-tip">
+      <p>
+        上次登录时间: <span>2018-07-16 &nbsp;21:15:52</span>
+        地点: <a href="#">查看最近操作记录</a>
+        用户ID: <span>6170814</span>
+      </p>
+      <p>
+        <mat-icon svgIcon="close"></mat-icon>
+      </p>
+    </div>
+    <div class="col-12 list-header">
+      <div>
+        <h5>账号绑定</h5>
+        <p>
+          完成<span>2/4</span>
+        </p>
+      </div>
+      <div>
+        <div><mat-icon svgIcon="help"></mat-icon></div>
+        <a href="#">常见问题</a>
+      </div>
+    </div>
+    <div class="col-12 list-menu-box">
+      <mat-list>
+        <mat-list-item *ngFor="let item of list_item">
+          <mat-icon mat-list-icon [svgIcon]="item.icon"></mat-icon>
+          <h4 mat-line>
+            <div>
+              <h5>
+                {{item.name}}<span>{{item.description}}</span>
+              </h5>
+              <p>{{item.notice}}</p>
+            </div>
+            <div class="personal-operation" *ngIf="item.operation">{{item.operation}}</div>
+          </h4>
+        </mat-list-item>
+
+      </mat-list>
+    </div>
+
+  </div>
+</div>
+
+
+

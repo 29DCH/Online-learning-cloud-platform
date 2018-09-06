@@ -1,0 +1,32 @@
+.attest-form {
+  padding: 3rem 0 3rem 3rem;
+
+}
+.attest-form span {
+  display: inline-flex;
+  width: 30%;
+}
+
+.attest-form mat-form-field {
+  width: 70%;
+}
+
+.student-attest-help {
+  padding: 3rem 0 3rem 3rem;
+}
+
+.student-attest-help h5 {
+  margin-bottom: 1rem;
+}
+
+.student-attest-help ul {
+  margin: 0;
+  padding: 0;
+  padding: 1rem;
+  font-size: .9rem;
+  color: #45555d;
+}
+
+.student-attest-help ul li {
+  line-height: 1.5rem;
+}

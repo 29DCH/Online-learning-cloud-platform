@@ -1,0 +1,141 @@
+.box {
+  padding-top: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+.summary-box {
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 1rem 1rem .5rem;
+  font-size: 1rem;
+}
+
+.title h5 {
+  margin-bottom: 0;
+}
+
+.title i {
+  background-color: #FF6547;
+  width: .5rem;
+  height: .5rem;
+  margin-right: .5rem;
+}
+
+.subject-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.target-pic {
+  padding: 1rem;
+}
+
+.content-item-order p {
+  margin-bottom: .5rem;
+}
+
+.content-item-order p {
+  color: #666;
+}
+
+.exam-notice {
+  padding: 1.25rem;
+}
+
+.exam-notice div {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.exam-notice div p {
+  color: #666;
+  margin-bottom: .5rem;
+  font-size: .9rem;
+}
+
+.submit-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+
+
+.rank h5 {
+  font-size: 1rem;
+}
+
+.rank-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #d9d9d9;
+}
+
+.rank-list .rank-number {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: .5rem;
+  background-color: #a4b2ba;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rank-list span.first {
+  background-color: #ff6745;
+}
+
+.rank-list span.second {
+  background-color: #00bc9b;
+}
+
+.rank-list span.third {
+  background-color: #f2cf2e;
+}
+
+.rank-list .avatar {
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-right: .5rem;
+}
+
+.rank-list .avatar img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.list-info p {
+  margin-bottom: 0;
+  font-size: .8rem;
+}
+
+.list-info p a {
+  color: #333;
+}
+
+.list-info p a.first {
+  color: #ff6745;
+}
+
+.list-info p a.second {
+  color: #00bc9b;
+}
+.list-info p a.third {
+  color: #f2cf2e;
+}
+
+.list-info p a:hover {
+  text-decoration: none;
+}

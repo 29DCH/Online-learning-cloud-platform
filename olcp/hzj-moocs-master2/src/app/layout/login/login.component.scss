@@ -1,0 +1,56 @@
+.login-close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3rem;
+}
+
+.dialog-box {
+  position: relative;
+}
+
+.dialog-box .dialog-close {
+  position: absolute;
+  z-index: 1000;
+  right: 2rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.dialog-box form {
+  width: 100%;
+}
+
+.dialog-box form mat-form-field {
+  width: 100%;
+  margin: .5rem 0 .5rem 0;
+}
+
+
+.auto-login-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.login-button {
+  width: 100%;
+  margin: .5rem 0 .5rem 0;
+}
+
+.verification {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.verification button {
+  margin-top: .5rem;
+  margin-right: .5rem;
+  outline: none;
+}
+
+#verification-input {
+  width: 65%;
+}

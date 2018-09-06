@@ -1,0 +1,23 @@
+button {
+  outline: none;
+}
+
+.fill {
+  flex: 1;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.header-container h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}

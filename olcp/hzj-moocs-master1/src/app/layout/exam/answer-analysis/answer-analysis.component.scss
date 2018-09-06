@@ -1,0 +1,168 @@
+button {
+  outline: none;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  padding-top: 1rem;
+}
+
+.remove-padding {
+  padding: 0;
+}
+
+.content-box {
+  padding: 2rem 0 2rem 2rem;
+}
+.content-left-box {
+  border-right: 1px solid #ddd;
+}
+
+.get-grade {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3rem;
+}
+
+.get-grade span {
+  color: #888;
+}
+
+.content-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.content-item h5 span {
+  margin-right: .5rem;
+}
+
+.content-right-box {
+  padding-left: 2rem;
+}
+
+.content-right-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.analysis-header {
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.analysis-header h5 {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.analysis-header div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.analysis-header div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  margin-right: .2rem;
+  margin-bottom: .2rem;
+}
+
+.analysis-header div span a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #fff0ff;
+  background: #FF431E;
+}
+
+.analysis-header div span:hover a {
+  height: 2.2rem;
+  font-size: 1.1rem;
+}
+
+.analysis-header div span a.active {
+  height: 2.2rem;
+  font-size: 1.1rem;
+}
+
+
+.analysis-content {
+  padding: 1rem 1.5rem;
+}
+
+
+.analysis-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analysis-content-header .question {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.analysis-content-header .question mat-chip-list {
+  margin-right: .5rem;
+}
+
+.analysis-content-header button {
+  margin-left: .5rem;
+}
+
+.analysis-content-body {
+  background: #f9f9f9;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+}
+
+.analysis-content-body h5 {
+  color: #666;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.analysis-content-body h5 span {
+  margin-right: 1rem;
+}
+
+.analysis-content-body h5 a {
+  color: #ff6547;
+}
+
+.analysis-content-body .option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .5rem 0 .5rem 1rem;
+  background: #FFF;
+  border: 1px solid #d4d4d4;
+  margin-bottom: .5rem;
+}

@@ -1,0 +1,139 @@
+<div class="container">
+  <div class="row">
+    <!--左边-->
+    <div class="col-8">
+      <div class="problem-top">
+        <h5>程序员自己的问答社区</h5>
+        <button mat-raised-button color="primary">我要提问</button>
+      </div>
+      <mat-tab-group dynamicHeight>
+        <mat-tab label="推荐">
+          <div class="example-small-box mat-elevation-z4">
+            <app-problem-list></app-problem-list>
+          </div>
+        </mat-tab>
+        <mat-tab label="最新">
+          <div class="example-large-box mat-elevation-z4">
+            <app-problem-list></app-problem-list>
+          </div>
+        </mat-tab>
+        <mat-tab label="待回答">
+          <div class="example-large-box mat-elevation-z4">
+            <app-problem-list></app-problem-list>
+
+          </div>
+        </mat-tab>
+        <mat-tab label="话题">
+          <div class="example-large-box mat-elevation-z4">
+            <app-problem-list></app-problem-list>
+
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+    <!--右边-->
+    <div class="col-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 user-about">
+            <!--个人信息  左边-->
+            <div class="user-about-left">
+              <img src="assets/img/avatar01.jpg" class="img-fluid">
+            </div>
+            <!--个人信息  右边-->
+            <div class="user-about-right">
+              <h5>
+                <a href="#">慕少1238709</a>
+              </h5>
+              <p>
+                <a href="#">积分: 8</a>
+                <a href="#">积分商城</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 user-problem">
+            <a href="#" class="nav-link">提问</a>
+            <a href="#" class="nav-link">回答</a>
+            <a href="#" class="nav-link">关注</a>
+          </div>
+          <!--热门提问-->
+          <div class="col-12 popular-problem">
+            <p>热门问题</p>
+            <div class="popular-problem-list">
+              <div>
+                <a href="#">女生学UI 还是学前端好</a>
+              </div>
+              <div>
+                <span>
+                  <a href="#">22回答</a>
+                  <a href="#">0关注</a>
+                </span>
+                <span>
+                  <a href="#">来自javaScript</a>
+                </span>
+              </div>
+            </div>
+            <div class="popular-problem-list">
+              <div>
+                <a href="#">女生学UI 还是学前端好</a>
+              </div>
+              <div>
+                <span>
+                  <a href="#">22回答</a>
+                  <a href="#">0关注</a>
+                </span>
+                <span>
+                  <a href="#">来自javaScript</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--回答雷锋榜-->
+          <div class="col-12 answer-rank">
+            <!--回答雷锋榜标题-->
+            <div class="answer-rank-header">
+              <div>
+                回答雷锋榜
+              </div>
+              <div>
+                <a href="#" class="active">今日</a>
+                <a href="#">一周</a>
+              </div>
+            </div>
+            <div class="answer-rank-box">
+              <div class="answer-rank-list">
+                <span>1</span>
+                <img src="../../../../assets/img/avatar01.jpg" class="img-fluid">
+                <a href="#">社会人</a>
+              </div>
+              <div>
+                <span>43回答</span>
+              </div>
+            </div>
+            <div class="answer-rank-box">
+              <div class="answer-rank-list">
+                <span>1</span>
+                <img src="../../../../assets/img/avatar01.jpg" class="img-fluid">
+                <a href="#">社会人</a>
+              </div>
+              <div>
+                <span>43回答</span>
+              </div>
+            </div>
+            <div class="answer-rank-box">
+              <div class="answer-rank-list">
+                <span>1</span>
+                <img src="../../../../assets/img/avatar01.jpg" class="img-fluid">
+                <a href="#">社会人</a>
+              </div>
+              <div>
+                <span>43回答</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

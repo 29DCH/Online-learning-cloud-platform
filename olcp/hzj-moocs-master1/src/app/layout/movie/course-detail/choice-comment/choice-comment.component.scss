@@ -1,0 +1,34 @@
+button {
+  outline: none;
+}
+.new-comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 0 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.new-comment-header h4 {
+  margin-bottom: 0;
+}
+
+.new-comment-header mat-icon {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+mat-dialog-actions {
+  padding-bottom: 1rem;
+}
+
+mat-dialog-actions div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+  width: 100%;
+}
+
+

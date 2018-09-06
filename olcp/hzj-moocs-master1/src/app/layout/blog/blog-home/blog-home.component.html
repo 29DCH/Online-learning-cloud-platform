@@ -1,0 +1,126 @@
+<div class="container">
+  <div class="row">
+    <div class="col-2 blo-menu-box">
+      <mat-nav-list>
+        <mat-list-item *ngFor="let menu of menus" [routerLink]="menu.link">
+          <p mat-line>{{menu.menu}}</p>
+          <mat-icon matListIcon svgIcon="navigate-next"></mat-icon>
+        </mat-list-item>
+      </mat-nav-list>
+    </div>
+    <div class="col-7">
+      <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let img of imgs">
+          <img [src]="img.imgurl" alt="Random first slide" class="img-fluid">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="blog-container-box bg-light">
+        <div class="blog-value-box">
+          <img src="assets/img/course02.jpg" class="img-fluid blog-value-left">
+          <div class="blog-value-right">
+            <h5>
+              <a href="#">搭建webpack项目框架</a>
+            </h5>
+            <div class="blog-value-footer">
+              <div>
+              <span>
+                <mat-icon svgIcon="remove-red-eye"></mat-icon>6666
+              </span>
+                <a href="#">强强</a>
+                <!--<nz-breadcrumb>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>html/css</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>html5</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>javaScript</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                <!--</nz-breadcrumb>-->
+              </div>
+              <div class="blog-time">
+                <span >07.18</span>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="blog-value-box">
+          <img src="assets/img/course02.jpg" class="img-fluid blog-value-left">
+          <div class="blog-value-right">
+            <h5>
+              <a href="#">搭建webpack项目框架</a>
+            </h5>
+            <div class="blog-value-footer">
+              <div>
+              <span>
+                <mat-icon svgIcon="remove-red-eye"></mat-icon>6666
+              </span>
+                <a href="#">强强</a>
+                <!--<nz-breadcrumb>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>html/css</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>html5</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                  <!--<nz-breadcrumb-item>-->
+                    <!--<a>javaScript</a>-->
+                  <!--</nz-breadcrumb-item>-->
+                <!--</nz-breadcrumb>-->
+              </div>
+              <div class="blog-time">
+                <span >07.18</span>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <!--7日精选文章-->
+      <div class="seven-date-box">
+        <a href="#">
+          <img src="../../../../../assets/img/seven.png" class="img-fluid">
+        </a>
+      </div>
+      <!--30日精选文章-->
+      <div>
+        <a href="#">
+          <img src="assets/img/thirty.png" class="img-fluid">
+        </a>
+      </div>
+      <!--热门文章-->
+      <div class="popular-essay-box">
+        <h5 class="popular-eaasy-header">热门文章<a href="#">更多<mat-icon svgIcon="navigate-next"></mat-icon></a></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="assets/img/course03.jpg" class="img-fluid">
+              <span>解决Maven导入Oracle驱动出现Missing artifact</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="assets/img/course03.jpg" class="img-fluid">
+              <span>解决Maven导入Oracle驱动出现Missing artifact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--推荐作者-->
+      <div class="popular-author-box">
+        <h5 class="popular-eaasy-header">推荐作者<a href="#">更多<mat-icon svgIcon="navigate-next"></mat-icon></a></h5>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>

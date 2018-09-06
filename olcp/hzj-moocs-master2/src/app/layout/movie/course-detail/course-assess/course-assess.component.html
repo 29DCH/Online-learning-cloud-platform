@@ -1,0 +1,85 @@
+<!--课程评价-->
+<div class="container">
+  <div class="row">
+    <div class="col-12 evaluation-info-box bg-white">
+      <div class="evaluation-info-left-box">
+        <h5>综合评分</h5>
+        <h3>9.9</h3>
+        <app-course-star></app-course-star>
+      </div>
+      <div class="evaluation-info-right-box">
+        <h5>
+          <span>实用内容</span> 9.7
+        </h5>
+        <h5>
+          <span>简洁易懂</span>9.2
+        </h5>
+        <h5>
+          <span>逻辑清晰</span>9.7
+        </h5>
+      </div>
+    </div>
+    <div class="col-12 my-assess-box bg-white">
+      <div class="course-score-box">
+        <span class="score">评分:</span>
+        <p>
+          <span>内容实用<app-course-star></app-course-star></span>
+          <span>简洁易懂<app-course-star></app-course-star></span>
+          <span>逻辑清晰<app-course-star></app-course-star></span>
+        </p>
+      </div>
+      <p class="course-difficult-box">
+        <span>难度:</span>
+        <mat-chip-list>
+          <mat-chip>入门</mat-chip>
+          <mat-chip>初级</mat-chip>
+          <mat-chip>中级</mat-chip>
+          <mat-chip>高级</mat-chip>
+          <mat-chip>专业</mat-chip>
+        </mat-chip-list>
+      </p>
+      <div class="write-assess">
+        <div class="user-img">
+          <a href="#">
+            <img src="assets/img/avatar01.jpg" class="img-fluid">
+          </a>
+        </div>
+        <form class="assess-value">
+          <mat-form-field>
+            <textarea matInput placeholder="写下你的对该课程的评价..."></textarea>
+          </mat-form-field>
+        </form>
+      </div>
+      <div class="submit-button">
+        <button mat-raised-button color="primary">提交</button>
+      </div>
+    </div>
+    <div class="col-12 othres-assess-box bg-white">
+      <div class="user-img">
+        <a href="#">
+          <img src="assets/img/avatar01.jpg" class="img-fluid">
+        </a>
+      </div>
+      <div class="othres-assess-right-box">
+        <div class="othres-assess-header">
+          <p>
+            <a href="#">小白</a>
+            <span>
+            <app-course-star></app-course-star>
+          <span>10分</span>
+          </span>
+          </p>
+        </div>
+        <p class="othres-assess-container">之前一直因为搭建angular框架浪费很多时间，现在看完受益匪浅，谢谢</p>
+        <p class="othres-assess-footer">
+          <span class="like-mount">
+            <mat-icon svgIcon="thumb-up"></mat-icon>
+            6
+          </span>
+          <span class="assess-time">时间: 4天前</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>

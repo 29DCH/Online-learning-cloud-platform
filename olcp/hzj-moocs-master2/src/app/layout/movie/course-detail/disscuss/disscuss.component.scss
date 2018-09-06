@@ -1,0 +1,80 @@
+.comment-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin-bottom: .6rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+  -moz-box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+  box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+
+}
+
+.comment-avatar img {
+  max-width: 3rem;
+  max-height: 3rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.comment-content{
+  flex: 1;
+  margin-left: 3%;
+}
+
+.comment-content .comment-name a {
+  color: #1c1f21;
+
+}
+
+.comment-content .comment-name a:hover {
+  color: #ec1500;
+  text-decoration: none;
+}
+
+.comment-content-body {
+  margin-bottom: .5rem;
+}
+
+.comment-content-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+}
+
+.comment-content-bottom div span {
+  color: #93999f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.comment-content-bottom div {
+  display: flex;
+}
+
+.comment-content-bottom div span mat-icon {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: .5rem;
+}
+
+.comment-content-bottom a {
+  margin-left: 3rem;
+  color: #93999f;
+}
+
+.comment-content-bottom a:hover {
+  color: #f01400;
+  text-decoration: none;
+}
+
+.comment-content-bottom div span:hover {
+  color: #4d555d;
+}

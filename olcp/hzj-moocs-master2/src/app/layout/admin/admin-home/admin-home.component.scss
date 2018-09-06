@@ -1,0 +1,23 @@
+.admin-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-drawer-container, mat-drawer-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-drawer-content main {
+  flex: 1;
+}
+
+mat-drawer {
+  width: 18%;
+  margin-left: -3px;
+  //padding-left: 2rem;
+}

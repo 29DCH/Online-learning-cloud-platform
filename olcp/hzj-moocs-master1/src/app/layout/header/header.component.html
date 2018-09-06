@@ -1,0 +1,55 @@
+<mat-toolbar class="header">
+  <button mat-icon-button (click)="openSidebar()">
+    <mat-icon>menu</mat-icon>
+    <!--<mat-icon svgIcon="project"></mat-icon>-->
+  </button>
+  <div class="header-nav">
+    <span routerLink="/study">学习平台</span>
+    <a routerLink="/study/freeCourse" routerLinkActive="active">免费课程</a>
+    <a routerLink="/plan" routerLinkActive="active">学习计划</a>
+    <a routerLink="/blog" routerLinkActive="active">手记</a>
+    <a routerLink="/answer" routerLinkActive="active">猿问</a>
+    <a routerLink="/exam" routerLinkActive="active">练习</a>
+  </div>
+  <form (submit)="onSearch(searchForm)" class="search-form" [formGroup]="searchForm">
+    <mat-form-field class="search-full-width">
+      <input matInput placeholder="" formControlName="search">
+      <!--<mat-icon >search</mat-icon>-->
+      <mat-icon matSuffix class="search-icon"
+                (click)="onSearch(searchForm)">search</mat-icon>
+    </mat-form-field>
+  </form>
+
+
+  <span class="flex-remainning-space"></span>
+  <mat-slide-toggle (change)="onChange($event.checked)" style="margin-right: 1rem">黑夜模式</mat-slide-toggle>
+  <div class="header-nav" *ngIf="!onlogin">
+    <a (click)="openLoginDialog(0)">登录</a>
+    <a (click)="openLoginDialog(1)"> 注册</a>
+  </div>
+  <div class="login" *ngIf="onlogin">
+    <img src="assets/img/avatar01.jpg" class="img-fluid">
+    <div class="login-menu bg-white">
+      <div class="login-menu-top">
+        <img src="assets/img/avatar01.jpg">
+        <div class="login-menu-top-right">
+          <div class="title">
+            <a>木勺</a>
+          </div>
+          <div class="meta">
+            <a>经验666</a>
+            <a>积分888</a>
+          </div>
+        </div>
+      </div>
+      <div class="login-menu-center">
+        <button mat-button routerLink="/study/mycourse/courses">我的课程</button>
+        <button mat-button routerLink="/study/personal">个人设置</button>
+      </div>
+      <div class="login-menu-bottom">
+        <span (click)="outLogin()">安全退出</span>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
+

@@ -1,0 +1,13 @@
+<mat-dialog-content>
+  <div class="new-comment-header">
+    <h4>我要发布</h4>
+    <mat-icon svgIcon="close" (click)="dialogCloseClick('关闭')"></mat-icon>
+  </div>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <div>
+    <button mat-raised-button color="primary" (click)="dialogCloseClick('我要评论')">我要评论</button>
+    <button mat-raised-button color="primary" (click)="dialogCloseClick('我有问题')">我有问题</button>
+  </div>
+</mat-dialog-actions>

@@ -1,0 +1,31 @@
+<!--学习任务列表的头部组件-->
+<div mat-subheader class="header-container">
+  <div>
+    <h3>{{header}}</h3>
+  </div>
+  <div class="fill">
+    <button mat-button type="button" (click)="onNewTaskClick()">
+      <mat-icon>add_circle_outline</mat-icon>
+      <span>新任务</span>
+    </button>
+  </div>
+  <div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+  </div>
+</div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item type="button" (click)="onEditListClick()">
+    <mat-icon>mode_edit</mat-icon>
+    <span>修改列表名称</span>
+  </button>
+  <button mat-menu-item type="button" (click)="onMoveAllClick()">
+    <mat-icon svgIcon="move"></mat-icon>
+    <span>移动本列表所有内容</span>
+  </button>
+  <button mat-menu-item (click)="onDelTaskListClick()">
+    <mat-icon>delete_forever</mat-icon>
+    <span>删除列表</span>
+  </button>
+</mat-menu>

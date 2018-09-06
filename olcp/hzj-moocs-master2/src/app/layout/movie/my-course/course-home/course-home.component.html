@@ -1,0 +1,39 @@
+<div class="my-course-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 my-course-header-left">
+        <img src="assets/img/avatar01.jpg" class="img-fluid img-thumbnail my-course-avatar">
+        <div class="personal-info">
+          <h4>慕少123456</h4>
+          <P>保密</P>
+          <p>这位同学很懒, 木有签名的说~</p>
+        </div>
+      </div>
+      <div class="col-6 my-course-header-right">
+        <h4>117h<span>学习时长</span></h4>
+        <h4>6666<span>经验</span></h4>
+        <h4>7<span>积分</span></h4>
+        <h4>11<span>关注</span></h4>
+        <h4>1<span>粉丝</span></h4>
+        <div>个人设置</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-2 course-menu-box">
+      <mat-nav-list>
+        <mat-list-item *ngFor="let item of course_menu" [routerLink]="item.link">
+          <mat-icon matListIcon [svgIcon]="item.icon"></mat-icon>
+          <span mat-line>{{item.value}}</span>
+        </mat-list-item>
+      </mat-nav-list>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+

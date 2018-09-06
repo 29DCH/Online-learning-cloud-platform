@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <form class="attest-form">
+        <span>姓名:</span>
+        <mat-form-field >
+          <input matInput placeholder="输入姓名" value="">
+        </mat-form-field>
+        <span>院校名称:</span>
+        <mat-form-field >
+          <input matInput placeholder="输入院校名称" value="">
+        </mat-form-field>
+        <span>入学时间:</span>
+        <mat-form-field>
+          <mat-select placeholder="请选择" *ngIf="times">
+            <mat-option *ngFor="let time of times" [value]="time">
+              {{time}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <span>学历层次:</span>
+        <mat-form-field>
+          <mat-select placeholder="请选择" *ngIf="times">
+            <mat-option *ngFor="let grade of grades" [value]="grade">
+              {{grade}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <button type="button" mat-raised-button color="primary">提交审核</button>
+      </form>
+    </div>
+    <div class="col-6 student-attest-help">
+      <h5>认证须知</h5>
+      <ul>
+        <li>你提交学籍证明后的5个工作日（不包含节假日）内完成审核，审核结果将会以系统通知的形式发送给你；</li>
+        <li>学籍证明中的身份证号码必须与实名认证中身份证信息保持一致。如有误，将无法通过审核。</li>
+        <li>学籍认证审核完成后，将无法修改和删除，请谨慎填写。同时系统将自动发放10个积分作为奖励；查看积分；</li>
+        <li>上传学籍证明文件格式为PDF或JPG格式。请确保学籍文件清晰可见，具体可参考实名认证 常见问题；</li>
+        <li>如存在恶意乱填写姓名，上传假信息，改动学籍证明内容或上传无关图片者，一经发现将冻结慕课网账号。</li>
+        <li>我们会确保你所提供的信息均处于严格的保密状态，不会泄露；</li>
+      </ul>
+    </div>
+  </div>
+</div>

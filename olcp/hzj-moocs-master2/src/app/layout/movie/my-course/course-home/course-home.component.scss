@@ -1,0 +1,61 @@
+.my-course-header {
+  background: url("../../../../../assets/img/person-background.png") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.my-course-avatar {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 150px;
+
+}
+
+.my-course-header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.personal-info {
+  color: #ffffff;
+  padding-left: 2rem;
+}
+
+.personal-info>p:nth-child(3){
+  opacity: .5;
+}
+
+.my-course-header-right {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.my-course-header-right h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.2rem;
+}
+
+.my-course-header-right h4 span {
+  color: rgba(255, 255, 255, .8);
+  font-size: .9rem;
+}
+
+.course-menu-box {
+  padding: 0;
+}
+
+.course-menu-box mat-nav-list mat-list-item mat-icon {
+  display: inline-flex;
+  color: #93999f;
+}

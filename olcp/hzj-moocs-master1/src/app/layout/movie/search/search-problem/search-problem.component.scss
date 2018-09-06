@@ -1,0 +1,53 @@
+.search-problem-box {
+  box-shadow: 0 4px 8px 0 rgba(7,17,27,.05);
+  box-sizing: border-box;
+  background: #ffffff;
+  margin-bottom: .5rem;
+  padding: 1.2rem 1.6rem;
+}
+
+.search-problem-footer {
+  color: #999999;
+  font-size: .8rem;
+  margin-bottom: .7rem;
+}
+
+.search-problem-footer span {
+  margin-right: .5rem;
+}
+
+.search-problem-footer .author {
+  color: #428bca;
+  margin-left: .5rem;
+}
+
+.search-problem-footer .reward {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.search-problem-footer .price {
+  font-size: 1rem;
+  color: #ff0000;
+}
+
+
+.search-problem-title h5 a {
+  color: #000;
+}
+
+.search-problem-title h5 a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.search-problem-body span {
+  color: #666;
+  font-size: .9rem;
+}
+
+.search-problem-label mat-chip-list mat-chip{
+  font-size: .6rem;
+  padding: 4px 10px;
+  margin-top: .5rem;
+}

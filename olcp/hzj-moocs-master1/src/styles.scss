@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import "theme.scss";
+body, html, app-root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.mat-expansion-panel-body{padding:0 24px 16px}

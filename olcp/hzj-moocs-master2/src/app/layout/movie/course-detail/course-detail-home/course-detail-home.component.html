@@ -1,0 +1,121 @@
+<div class="course-detail-header">
+  <div class="container">
+    <div class="row" *ngIf="courseDetail">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg course-detail-nav">
+          <ul class="navbar-nav" *ngIf="labeles">
+            <li class="nav-item">
+              <a routerLink="/study/freeCourse" class="nav-link">课程</a>
+              <span>\</span>
+            </li>
+            <li class="nav-item" *ngFor="let label of labeles; let i = index">
+              <a [routerLink]="['/study/freeCourse']" [queryParams]="{direction:label.link}" class="nav-link">{{label.name}}</a>
+              <span>\</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Typescript</a>
+            </li>
+          </ul>
+          <div class="navbar-nav-right" (click)="addCollectionCourse()">
+            <mat-icon svgIcon="star-border"></mat-icon>
+            <span>收藏</span>
+          </div>
+        </nav>
+      </div>
+      <div class="col-12 course-name">
+        <h4>{{courseDetail.coursename}}</h4>
+      </div>
+      <div class="col-12 course-detail-header-footer">
+        <div class="img-box">
+          <div>
+            <img [src]="courseDetail.teacherpicturepath" class="img-fluid">
+          </div>
+          <div>
+            <p>{{courseDetail.teachername}}</p>
+            <p>{{courseDetail.teacherjob}}</p>
+          </div>
+        </div>
+        <div class="course-detail-grade">
+          <div>
+            <span>难度</span>{{courseDetail.coursedifficulty}}
+          </div>
+          <div>
+            <span>时长</span>{{courseDetail.coursetime}}
+          </div>
+          <div>
+            <span>学习人数</span>{{courseDetail.coursestudypeople}}
+          </div>
+          <div>
+            <span>综合评价</span>{{courseDetail.courseoverallrating}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-light">
+  <div class="container">
+    <div class="row" *ngIf="courseDetail">
+      <div class="col-9">
+        <mat-tab-group dynamicHeight>
+          <mat-tab label="课程章节">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 course-introduction-box">
+                  {{courseDetail.coursesummary}}
+                </div>
+                <div class="col-12 course-chapter-list" *ngFor="let course of course_list">
+                  <div class="course-chapter-list-header">
+                    <!--课程章节名称-->
+                    <h5>{{course.course_chapter_name}}</h5>
+                    <!--课程章节介绍-->
+                    <p>{{course.course_chapter_introduction}}</p>
+                  </div>
+                  <div class="course-directory-list" *ngFor="let course_directory of course.directory" (click)="addToMyCourse(course_directory.course_directory, course_directory.link)">
+                    <a>
+                      <!--播放图标-->
+                      <mat-icon svgIcon="play-circle"></mat-icon>
+                      <!--课程小节名称-->
+                      <span>{{course_directory.course_directory}}</span>
+                    </a>
+                    <div>
+                      <!--观看状态图标-->
+                      <mat-icon [svgIcon]="course_directory.course_status"></mat-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+          <mat-tab label="问答评论">
+            <app-answer-comment [coursetailnum]="courseDetail.coursetailnum"></app-answer-comment>
+          </mat-tab>
+          <mat-tab label="同学笔记">
+            <app-student-note></app-student-note>
+          </mat-tab>
+          <mat-tab label="用户评价">
+            <app-course-assess></app-course-assess>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+      <div class="col-3">
+        <div class="course-progress bg-white">
+          <h5>已学 30%<span>学习耗时2小时14分</span></h5>
+          <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          <p class="study-course">上次学至 2-2 Hello Angular CLI</p>
+          <button mat-raised-button color="primary">继续学习</button>
+          <p class="course-help">课程须知</p>
+          <ul class="course-help-list" *ngIf="coursenotes">
+            <li *ngFor="let coursenot of coursenotes">{{coursenot}}</li>
+          </ul>
+          <p class="course-help">老师告诉你能学到什么？</p>
+          <ul class="course-help-list" *ngIf="learncontentes">
+            <li *ngFor="let learncontent of learncontentes">{{learncontent}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

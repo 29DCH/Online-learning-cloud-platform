@@ -1,0 +1,12 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .5rem;
+}
+
+
+mat-chip.active {
+  background: #3f51b5;
+  color: #FFFFFF;
+}

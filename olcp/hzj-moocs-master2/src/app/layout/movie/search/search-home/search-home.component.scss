@@ -1,0 +1,99 @@
+.search-nav {
+  margin-top: .5rem;
+
+}
+
+.more-result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-result-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 12rem;
+  border: 1px solid #D9DDE1;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+
+.search-value {
+  margin-top: 1rem;
+}
+
+.search-value span {
+  color: #ff0000;
+}
+
+
+.recommend-title {
+  width: 100px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+//推荐课程图片
+.recommend-course-list img {
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  border-radius: 5%;
+}
+
+
+.recommend-course-list p {
+  color: #545C63;
+  font-size: .8rem;
+}
+
+.recommend-course-list div {
+  padding: .5rem;
+}
+
+.recommend-course-list div p span {
+  margin-right: .4rem;
+}
+
+.recommend-course-list div p>span:first-child {
+  font-weight: 700;
+}
+
+.recommend-course-list div>p:last-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recommend-course-list  mat-icon {
+  height: .9rem;
+  width: .9rem;
+  margin-right: .2rem;
+  display: inline-flex;
+}
+
+.teacher-avatar {
+  //max-height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+mat-grid-tile {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-grid-tile mat-grid-tile-header, mat-grid-tile mat-grid-tile-footer {
+  color: #000;
+  background: transparent;
+  justify-content: center;
+}
+
+

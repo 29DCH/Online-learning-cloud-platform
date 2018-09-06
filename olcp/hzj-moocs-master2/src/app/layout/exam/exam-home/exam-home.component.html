@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 remove-padding">
+      <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let img of carouseImg" >
+          <div class="row justify-center" [style.background-color]="img.color">
+            <div class="col-7 remove-padding">
+              <img [src]="img.img" alt="Random first slide" class="brandImg" >
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 header-box">
+      <div class="title">
+        <i></i>
+        <h5>精准能力评估+智能专项练习</h5>
+      </div>
+      <div class="subtitle">
+        <span>选择目标职位，测评技能现状，为你定制薄弱知识点专项练习</span>
+      </div>
+    </div>
+  </div>
+  <div class="row module-body">
+    <div class="col-3 content-item-box" *ngFor="let issue of examType">
+      <div class="bg-white">
+        <span>{{issue.examname}}</span>
+        <img src="{{issue.image}}">
+        <button
+          mat-raised-button
+          color="primary"
+          [routerLink]="['summary']" [queryParams]="{type:issue.paperid}">马上评估</button>
+      </div>
+    </div>
+  </div>
+</div>

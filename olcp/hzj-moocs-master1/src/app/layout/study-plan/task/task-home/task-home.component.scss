@@ -1,0 +1,25 @@
+.add-button {
+  position: fixed;
+  bottom: 96px;
+  right: 32px;
+  z-index: 998;
+}
+
+.task-list {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.list-container {
+  flex: 0 0 360px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+}

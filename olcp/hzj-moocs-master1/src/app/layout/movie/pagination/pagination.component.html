@@ -1,0 +1,13 @@
+<div class="button-row">
+  <button mat-button (click)="choicePage(1)">首页</button>
+  <button *ngIf="current == 1" mat-button (click)="choicePage(current-1)" disabled>上一页</button>
+  <button *ngIf="current != 1" mat-button (click)="choicePage(current-1)">上一页</button>
+  <button class="page-current"
+          mat-button mat-mini-fab
+          color="primary"
+          *ngFor="let page of currentIndex"
+          (click)="choicePage(page)" [class.active]="page === current">{{page}}</button>
+  <button *ngIf="current != allCurrent" mat-button (click)="choicePage(current+1)">下一页</button>
+  <button *ngIf="current == allCurrent" mat-button (click)="choicePage(current+1)" disabled>下一页</button>
+  <button mat-button (click)="choicePage(allCurrent)">尾页</button>
+</div>

@@ -1,0 +1,25 @@
+.card {
+  height: 360px;
+  flex: 0 0 360px;
+  margin: 10px;
+}
+
+//:host就表示当前样式模板的宿主元素。 注意：默认情况下，自定义组件的display属性是空字符串的，也就是不占据空间著作权归作者所有。
+.list-container-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.add-button {
+  position: fixed;
+  bottom: 96px;
+  right: 32px;
+  z-index: 998;
+
+}
+
+button {
+  outline: none;
+}

@@ -1,0 +1,89 @@
+
+<div class="bg-white">
+  <div class="container">
+    <div class="course-direction-box">
+      <div>
+        <span class="type">方向</span>
+      </div>
+      <div>
+        <ul class="nav">
+          <span *ngFor="let direction of course_direction">
+            <li class="nav-item" (click)="directionChoiceClick(direction)">
+              <a class="nav-link" [class.active]="direction.direction === choice_direction">{{direction.direction}}</a>
+            </li>
+          </span>
+        </ul>
+      </div>
+    </div>
+    <div class="course-direction-box">
+      <div>
+        <span class="type">分类</span>
+      </div>
+      <div>
+        <ul class="nav">
+          <li class="nav-item" (click)="classificationChoiceClick({direction: '全部', link: 'all', ascription: '全部'})">
+            <a class="nav-link" [class.active]="'全部' === choice_classification">全部</a>
+          </li>
+          <span *ngFor="let direction of course_type">
+            <li
+              class="nav-item"
+              *ngIf="direction.ascription === choice_direction || choice_direction === '全部'"
+              (click)="classificationChoiceClick(direction)">
+              <a class="nav-link" [class.active]="direction.direction === choice_classification">{{direction.direction}}</a>
+            </li>
+          </span>
+        </ul>
+      </div>
+    </div>
+    <div class="course-direction-box">
+      <div>
+        <span class="type">难度</span>
+      </div>
+      <div>
+        <ul class="nav">
+          <li class="nav-item" *ngFor="let difficult of course_difficult">
+            <a class="nav-link"
+               [class.active]="difficult.link === choice_difficult"
+               (click)="difficultChoiceClick(difficult)">{{difficult.name}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-light">
+  <div class="container">
+    <div class="course-tool-box">
+      <div>
+        <mat-chip-list>
+          <mat-chip [class.active]="maxNew" color="primary" (click)="getNewCourse()">最新</mat-chip>
+          <mat-chip [class.active]="maxHot" color="primary" (click)="getHotCourses()">最热</mat-chip>
+        </mat-chip-list>
+      </div>
+      <!--<div>-->
+        <!--<span style="color: #ff0000;">{{current}}</span>/{{allCurrent}}-->
+        <!--<mat-icon svgIcon="navigate-before" class="material-icons" (click)="nextOrPer(-1)">navigate_before</mat-icon>-->
+        <!--<mat-icon svgIcon="navigate-next" class="material-icons" (click)="nextOrPer(1)"></mat-icon>-->
+      <!--</div>-->
+    </div>
+    <div class="row" *ngIf="courses">
+      <div class="col-3" *ngFor="let course of courses.content">
+        <app-course-list [course]="course"></app-course-list>
+      </div>
+    </div>
+    <div class="page-box">
+      <div class="row" *ngIf="courses">
+        <div class="col-12" *ngIf="courses && courses.totalPages >= 2">
+          <app-pagination
+            [current]="current"
+            [allCurrent]="allCurrent"
+            [size]="courses.size"
+            [totalElements]="courses.totalElements"
+            (pageClick)="pageClick($event)"></app-pagination>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

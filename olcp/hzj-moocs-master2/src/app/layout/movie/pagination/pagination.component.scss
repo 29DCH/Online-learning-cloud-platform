@@ -1,0 +1,17 @@
+.button-row {
+  margin-bottom: 1rem;
+}
+
+.page-current {
+  color: #4d555d;
+  background: #f3f5f7;
+  margin: 0 .5rem 0 .5rem;
+}
+
+button.active {
+  color: red;
+}
+
+button {
+  outline: none;
+}

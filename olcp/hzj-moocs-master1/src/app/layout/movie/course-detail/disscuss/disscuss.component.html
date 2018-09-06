@@ -1,0 +1,25 @@
+<div class="container" style="margin-top: 1rem;">
+  <div class="row" *ngIf="commentPage">
+    <div class="col-12 comment-box bg-white" *ngFor="let comment of commentPage.content">
+      <div class="comment-avatar">
+        <img src="assets/img/avatar01.jpg" class="img-fluid img-thumbnail">
+      </div>
+      <div class="comment-content">
+        <div class="comment-name">
+          <a href="#">{{comment.username}}</a></div>
+        <div class="comment-content-body">{{comment.content}}</div>
+        <div class="comment-content-bottom">
+          <div>
+            <span>
+              <mat-icon svgIcon="thumb-up"></mat-icon>
+              <span>{{comment.likes}}</span>
+            </span>
+            <a href="#">{{comment.from}}</a>
+          </div>
+
+          <span>{{comment.time}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

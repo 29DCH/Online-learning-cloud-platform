@@ -1,0 +1,211 @@
+.content-box {
+  margin-bottom: 2rem;
+}
+
+.carousel-box {
+  margin-top: 2rem;
+  border-radius: .5rem;
+  background: #2b333b;
+  color: rgba(255,255,255,.6);
+}
+
+
+.remove-padding {
+  padding: 0px;
+
+}
+
+.remove-padding img {
+  border-top-right-radius: .5rem;
+
+}
+
+.img-box {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.study-day-box {
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #31be9b;
+}
+
+.study-day-box span {
+  font-size: 3rem;
+  margin-right: .5rem;
+}
+
+.menu-list {
+  padding: .5rem 0 .5rem .5rem;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.menu-list a {
+  color: rgba(255,255,255,.6);
+  font-size: .9rem;
+}
+
+.menu-list mat-nav-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 0;
+}
+
+.menu-list mat-nav-list mat-list-item {
+  height: 100%;
+}
+
+.menu-list mat-nav-list mat-list-item:hover a {
+  color: #fff;
+}
+
+.menu-list mat-nav-list mat-list-item:hover {
+  background: #777;
+}
+
+.mat-list-item-content {
+  flex: 1;
+}
+
+.menu-right {
+  flex: 1 1 80%;
+  max-width: 80%;
+}
+.carousel-img-box {
+  padding: 0;
+  margin: 0;
+
+}
+
+ngb-carousel {
+  outline: none;
+  border-top-right-radius: .5rem;
+}
+
+ng-template {
+  border-top-right-radius: .5rem;
+
+}
+
+.coursel-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+}
+
+.coursel-bottom>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursel-bottom>div i {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("../../../../assets/img/carousel/path_new.png") no-repeat;
+  background-size: 100%;
+}
+
+.coursel-bottom>div .i-web {
+  background-position: center 0;
+}
+
+.coursel-bottom>div .i-java {
+  background-position: center -72px;
+}
+
+.coursel-bottom>div .i-android {
+  background-position: center -108px;
+}
+
+.coursel-bottom>div .i-php {
+  background-position: center -36px;
+}
+
+.coursel-bottom>div .i-ios {
+  background-position: center -144px;
+}
+.coursel-bottom>div div {
+  color: #93999F;
+  font-size: .8rem;
+}
+
+.coursel-bottom>div div.tit {
+  color: #07111B;
+  font-size: .9rem;
+  margin-bottom: .3rem;
+}
+
+.second-menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  border-left: 1px dotted #aaa;
+  padding: 2rem 1rem 1rem 2rem;
+  z-index: 1000;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course-box {
+  padding: 1rem 0 3rem 0;
+}
+
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.second-menu-title {
+  color: #ff0000;
+  font-size: 1rem;
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.link-box {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link-box a {
+  color: #4D555D;
+  display: inline-flex;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.link-box a:hover {
+  color: #f01414;
+  text-decoration: none;
+}

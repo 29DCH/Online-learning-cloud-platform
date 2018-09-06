@@ -1,0 +1,53 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  padding: 1rem;
+
+}
+
+.title i {
+  display: inline-flex;
+  width: .4rem;
+  height: .4rem;
+  background: #FF6547;
+  margin-right: .5rem;
+}
+
+.title .dialog-close {
+  cursor: pointer;
+}
+
+.body-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 3rem 0;
+  background: #f2f2f2;
+  color: #666;
+}
+
+.body-box mat-radio-button {
+  margin-right: .5rem;
+  color: #333;
+}
+
+.body-box mat-radio-button:hover {
+  color: #00bc9b;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 1rem;
+}
+
+.bottom-box button {
+  margin-left: .5rem;
+}

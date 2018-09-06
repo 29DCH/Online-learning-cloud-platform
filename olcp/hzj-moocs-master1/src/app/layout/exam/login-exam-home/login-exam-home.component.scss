@@ -1,0 +1,154 @@
+button {
+  outline: none;
+}
+.exam-menu-box {
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+}
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.title i {
+  display: inline-flex;
+  width: .4rem;
+  height: .4rem;
+  background: #FF6547;
+  margin-right: .5rem;
+}
+
+.exam-memu-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.exam-memu-top span {
+  color: #969696;
+}
+
+.exam-memu-top span a {
+  color: #00bc9b;
+  font-weight: 700;
+  margin-left: .5rem;
+}
+
+.table-menu-top {
+  background: #ededed;
+  height: 3rem;
+  margin-top: 1rem;
+  color: #999;
+}
+
+.table-menu-top tr th {
+  text-align: center;
+
+}
+
+.table-menu-list tr td {
+  text-align: center;
+  border-top: 0;
+}
+
+.table-menu-list tr {
+  border-bottom: 1px dashed #d9d9d9;
+}
+
+.table-menu-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.table-menu-bottom div button {
+  margin-left: 1rem;
+  outline: none;
+}
+
+.exam-right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: .5rem;
+  background-color: #ffffff;
+}
+
+.exam-right-header-left {
+  padding: .5rem;
+}
+
+.exam-right-header-left h4 {
+  margin-bottom: .5rem;
+}
+
+.exam-right-header-center {
+  padding: .5rem;
+}
+
+.exam-right-header-center p {
+  margin-bottom: .5rem;
+}
+
+
+.exam-right-center {
+  margin-top: 1rem;
+}
+
+.exam-right-avatar {
+  padding: 1rem 0 .5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.exam-right-avatar img {
+  max-width: 4rem;
+  max-height: 4rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.exam-right-center-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  color: #999;
+  font-size: .8rem;
+}
+
+.exam-right-center-bottom a {
+  margin-left: .5rem;
+  color: #333;
+}
+
+.exam-right-center-bottom a:hover {
+  color: #25bb9b;
+  text-decoration: none;
+}
+
+.exam-right-bottom-box {
+  margin-top: 1rem;
+  padding: .5rem;
+
+}
+
+.exam-right-bottom-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exam-right-bottom-top mat-form-field {
+  width: 50%;
+}

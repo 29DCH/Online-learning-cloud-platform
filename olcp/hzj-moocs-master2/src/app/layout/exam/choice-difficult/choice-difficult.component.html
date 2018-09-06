@@ -1,0 +1,32 @@
+<mat-dialog-content>
+  <div class="top">
+    <h5 class="title">
+      <span><i></i>专项练习</span>
+      <span><mat-icon (click)="dialogClose(false)" class="dialog-close">close</mat-icon></span>
+    </h5>
+  </div>
+  <div class="body-box">
+    <div>
+      难度系数<app-course-star></app-course-star>
+    </div>
+    <div>
+      出题来源：
+      <mat-radio-group>
+        <mat-radio-button *ngFor="let origin of origins" value="{{origin.value}}">{{origin.type}}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <div>
+      选择单次题目数量：
+      <mat-radio-group>
+        <mat-radio-button *ngFor="let amount of amounts" value="{{amount.value}}">{{amount.amount}}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <div class="bottom-box">
+    <button mat-raised-button (click)="dialogClose(false)">取消</button>
+    <button mat-raised-button color="primary" (click)="dialogClose(true)">确定</button>
+  </div>
+
+</mat-dialog-actions>

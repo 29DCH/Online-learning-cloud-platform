@@ -1,0 +1,208 @@
+button {
+  outline: none;
+}
+.course-detail-nav {
+  justify-content: space-between;
+}
+.course-detail-nav .navbar-nav .nav-link {
+  display: inline-flex;
+}
+
+.course-detail-header .navbar-nav .nav-item span, .course-detail-nav .navbar-nav .nav-link {
+  cursor: pointer;
+  color: rgba(255, 255, 255, .5);
+  font-size: .9rem;
+}
+
+.course-detail-nav .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.course-detail-nav a.nav-link {
+  cursor: pointer;
+}
+
+.course-detail-header {
+  background-color: #172a34;
+}
+
+.navbar-nav-right {
+  color: rgba(255, 255, 255, .6);
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.navbar-nav-right mat-icon {
+  width: .9rem;
+  height: .9rem;
+  margin-right: .5rem;
+}
+
+.navbar-nav-right:hover {
+  color: #ffffff;
+}
+
+.course-name {
+  color: #ffffff;
+}
+
+.course-name h4 {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.course-detail-header-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.img-box {
+  display: flex;
+  color: #ffffff;
+}
+
+
+.img-box>div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.img-box div p {
+  margin-bottom: 0;
+}
+.img-box img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.course-detail-grade {
+  font-size: .9rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  width: 50%;
+}
+
+.course-detail-grade div span {
+  font-weight: 700;
+  margin-right: .5rem;
+}
+
+
+.course-introduction-box, .course-chapter-list {
+  box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);
+  background: #ffffff;
+  border: 1px solid #FFF;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  padding: .9rem 1.2rem 1.2rem;
+}
+
+.course-introduction-box {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course-chapter-list {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.course-chapter-list-header h5 {
+  font-size: 1rem;
+}
+
+.course-chapter-list-header p {
+  font-size: .9rem;
+  color: #545C63;
+
+}
+
+.course-directory-list {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+  cursor: pointer;
+
+}
+
+.course-directory-list div {
+  color: #00b43c;
+}
+
+.course-directory-list:hover {
+  color: #ff0000;
+  background: rgba(242,13,13,.05);;
+}
+
+.course-directory-list:hover div{
+  color: red;
+}
+
+.course-directory-list:hover a{
+  color: red;
+}
+
+.course-directory-list a {
+  color: #1c1f21;
+}
+
+.course-directory-list a:hover {
+  text-decoration: none;
+}
+
+.course-directory-list a mat-icon {
+  margin-right: 1rem;
+}
+
+.course-progress {
+  padding: .9rem 1.2rem 1.2rem;
+  margin-top: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);
+}
+.course-progress h5 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.course-progress h5 span {
+  font-size: .8rem;
+  color: #5e5e5e;
+
+}
+
+.course-progress .study-course {
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: #5e5e5e;
+}
+
+.course-progress .course-help {
+  font-weight: 500;
+  margin-top: .7rem;
+}
+
+.course-progress .course-help-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: .8rem;
+  color: #5e5e5e;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+
+}

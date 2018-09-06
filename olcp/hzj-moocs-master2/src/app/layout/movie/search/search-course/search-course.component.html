@@ -1,0 +1,22 @@
+<div class="course-item-box" *ngIf="courses">
+  <div class="row" *ngFor="let course of courses.highlighted" style="margin-bottom: 1rem;">
+    <div class="col-4">
+      <a href="#" class="course-item-link">
+        <img [src]="course.entity.picturepath" class="img-fluid">
+      </a>
+    </div>
+    <div class="col-8">
+      <h5><a href="#" class="course-item-link" [innerHtml]="courses.courseName"></a></h5>
+      <p>
+        <span>课程</span>
+        <span>讲师:&nbsp;暂无</span>
+        <span>{{course.entity.coursedifficulty}}</span>
+        <mat-icon svgIcon="person-outline"></mat-icon>
+        <span>{{course.entity.coursestudypeople}}</span>
+      </p>
+      <p [innerHtml]="courses.content"></p>
+    </div>
+  </div>
+</div>
+
+

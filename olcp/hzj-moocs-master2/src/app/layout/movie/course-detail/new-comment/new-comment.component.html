@@ -1,0 +1,27 @@
+<mat-dialog-content>
+  <div class="new-comment-header">
+    <h4>我要评论</h4>
+    <mat-icon svgIcon="close" (click)="dialogCloseClick()"></mat-icon>
+  </div>
+  <div>
+    <form [formGroup]="comment" (submit)="submitClick(comment, $event)">
+      <textarea
+        class="form-control"
+        placeholder="扯淡、吐槽、表扬、鼓励……想说啥就说啥！"
+        rows="3"
+        formControlName="content"></textarea>
+      <div class="error-message" [hidden]="comment.get('content').valid || comment.get('content').untouched">
+        <div [hidden]="!comment.hasError('required', 'content')">
+          评论不能为空
+        </div>
+        <div [hidden]="!comment.hasError('minlength', 'content')">
+          评论长度不能小于5
+        </div>
+      </div>
+
+      <div class="new-comment-bottom">
+        <button mat-raised-button type="submit">发表评论</button>
+      </div>
+    </form>
+  </div>
+</mat-dialog-content>

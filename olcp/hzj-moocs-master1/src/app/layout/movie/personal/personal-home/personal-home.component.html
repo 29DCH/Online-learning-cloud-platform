@@ -1,0 +1,40 @@
+<div class="container personal-box">
+  <div class="row">
+    <div class="col-2 bg-light personal-left-box">
+      <div class="row">
+        <div class="col-12 personal-avatar-box">
+          <img src="assets/img/avatar01.jpg" class="img-fluid img-thumbnail img-circle">
+        </div>
+        <div class="col-12 personal-name-box">
+          <span>慕少1238709</span>
+        </div>
+        <div class="col-12 personal-icon-box">
+          <div>
+            <mat-icon svgIcon="person-outline"></mat-icon>
+          </div>
+          <div>
+            <mat-icon svgIcon="school"></mat-icon>
+          </div>
+          <div>
+            <mat-icon svgIcon="iphone"></mat-icon>
+          </div>
+          <div>
+            <mat-icon svgIcon="email-outline"></mat-icon>
+          </div>
+        </div>
+        <div class="col-12 personal-acount-box">
+          <h5>账户管理</h5>
+          <mat-nav-list>
+            <mat-list-item *ngFor="let operaton of account_operation" [routerLink]="operaton.link">
+              <p mat-line>{{operaton.operation}}</p>
+              <mat-icon matListIcon svgIcon="navigate-next"></mat-icon>
+            </mat-list-item>
+          </mat-nav-list>
+        </div>
+      </div>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

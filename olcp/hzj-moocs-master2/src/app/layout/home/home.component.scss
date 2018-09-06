@@ -1,0 +1,25 @@
+mat-drawer-container, .container-box {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+mat-drawer {
+  width: 300px;
+}
+
+mat-drawer-container.unicorn-dark-theme {
+  background: #000;
+}
+
+

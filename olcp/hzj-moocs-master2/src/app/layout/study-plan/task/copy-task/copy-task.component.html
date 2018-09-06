@@ -1,0 +1,14 @@
+<form>
+  <h2 mat-dialog-title>移动本列表所有内容</h2>
+  <mat-dialog-content>
+    <mat-form-field>
+      <mat-select placeholder="请选择项目列表">
+        <mat-option *ngFor="let list of lists" [value]="list.name">{{list.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button type="button" mat-raised-button color="primary">保存</button>
+    <button type="button" mat-dialog-close mat-button>关闭</button>
+  </mat-dialog-actions>
+</form>

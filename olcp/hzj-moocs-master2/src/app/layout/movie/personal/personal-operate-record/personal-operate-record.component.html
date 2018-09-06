@@ -1,0 +1,81 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 personal-operation-header">
+      <h5>
+        操作记录<span>通过查看操作类型、登录时间、登录地点和设备可以判断账号是否正常</span>
+      </h5>
+      <a href="#">不是我登录的?</a>
+    </div>
+    <div class="col-12 operation-table-box">
+      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="position">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="weight">
+          <th mat-header-cell *matHeaderCellDef> Weight </th>
+          <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="symbol">
+          <th mat-header-cell *matHeaderCellDef> Symbol </th>
+          <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+
+
+      <!--<div class="mat-elevation-z8">-->
+      <!---->
+      <!--<table mat-table [dataSource]="dataSource">-->
+
+      <!--&lt;!&ndash; type Column &ndash;&gt;-->
+      <!--<ng-container matColumnDef="type">-->
+      <!--<th mat-header-cell *matHeaderCellDef> 类型 </th>-->
+      <!--<td mat-cell *matCellDef="let element"> {{element.type}} </td>-->
+      <!--</ng-container>-->
+
+      <!--&lt;!&ndash; time Column &ndash;&gt;-->
+      <!--<ng-container matColumnDef="time">-->
+      <!--<th mat-header-cell *matHeaderCellDef> 登录时间 </th>-->
+      <!--<td mat-cell *matCellDef="let element"> {{element.time}} </td>-->
+      <!--</ng-container>-->
+
+      <!--&lt;!&ndash; ip Column &ndash;&gt;-->
+      <!--<ng-container matColumnDef="ip">-->
+      <!--<th mat-header-cell *matHeaderCellDef> IP </th>-->
+      <!--<td mat-cell *matCellDef="let element"> {{element.ip}} </td>-->
+      <!--</ng-container>-->
+
+      <!--&lt;!&ndash; device Column &ndash;&gt;-->
+      <!--<ng-container matColumnDef="device">-->
+      <!--<th mat-header-cell *matHeaderCellDef> 登录设备 </th>-->
+      <!--<td mat-cell *matCellDef="let element"> {{element.device}} </td>-->
+      <!--</ng-container>-->
+
+      <!--<tr mat-header-row *matHeaderRowDef="colums"></tr>-->
+      <!--<tr mat-row *matRowDef="let row; columns: colums;"></tr>-->
+      <!--</table>-->
+      <!--<mat-paginator [pageSizeOptions]="[5, 8, 10]" showFirstLastButtons></mat-paginator>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
+

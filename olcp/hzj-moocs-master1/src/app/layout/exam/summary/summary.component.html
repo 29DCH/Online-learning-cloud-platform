@@ -1,0 +1,92 @@
+<div class="box">
+  <div class="container">
+    <div class="row summary-box ">
+      <div class="col-9">
+        <div class="row" *ngIf="examType">
+          <div class="col-12">
+            <div class="bg-white title">
+              <i></i>
+              <h5>{{examType.examname}}</h5>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="bg-white subject-type">
+              <div class="target-pic">
+                <img src="assets/img/summary/target.png">
+              </div>
+              <div class="content-item-order">
+                <p>
+                  <span class="item-label">客观题：</span>
+                  {{examType.examtype}}
+                </p>
+                <p>
+                  <span class="item-label">完成时间：</span>
+                  {{examType.time}}
+                </p>
+                <p>
+                  <span class="item-label">难度系数：</span>
+                  <app-course-star></app-course-star>
+                </p>
+                <p>
+                  <span class="item-label">总分：</span>
+                  {{examType.totalscore}}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="bg-white exam-notice">
+              <div>
+                <p>1、本套试卷来源于网上，由牛客网注册用户提供，除非经特别声明，牛客网不拥有该资料版权，亦不承担任何法律责任。</p>
+                <p>2、未经网站或作者的同意不得转载，否则构成侵权，本网站或作者保留诉诸法律的权利。</p>
+                <p>3、如发现本网站载有侵犯您著作权的侵权信息，可依法向我们提出权利申请</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 submit-box">
+            <div class="bg-white">
+              <button mat-raised-button color="primary" routerLink="/exam/homework/{{examType.tailnum}}">开始做题</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row bg-white">
+          <div class="col-12">
+            <div class="title rank">
+              <i></i>
+              <h5>排行榜</h5>
+            </div>
+          </div>
+          <div class="col-12" *ngFor="let info of peopelInfo; let i = index">
+            <div class="rank-list">
+              <span class="rank-number"
+              [ngClass]="{
+              'first': i === 0,
+              'second': i=== 1,
+              'third': i === 2}">{{info.rank}}</span>
+              <div class="avatar">
+                <img [src]="info.imgUrl" class="img-fluid">
+              </div>
+              <div class="list-info">
+                <p>
+                  <a href="#"
+                    [ngClass]="{
+                    'first': i === 0,
+                    'second': i=== 1,
+                    'third': i === 2}">{{info.name}}</a>
+                </p>
+                <p>
+                  <span>{{info.grade}}{{i}}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

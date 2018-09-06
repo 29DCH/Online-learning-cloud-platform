@@ -1,0 +1,24 @@
+<!--学习任务列表中的列表-->
+<mat-list-item class="container"
+  [@item]="widerPriority"
+  [ngClass]="{
+  'priority-normal': item.priority === 3,
+  'priority-important': item.priority === 2,
+  'priority-emergency': item.priority === 1
+  }"
+  (click)="onItemClick()">
+  <mat-checkbox
+    [checked]="item.completed"
+    class="completion-status"
+    (click)="onCheckBoxClick($event)"></mat-checkbox>
+  <div mat-line class="content" [ngClass]="{'completed': item.completed}">
+    <span [matTooltip]="item.desc">{{item.desc}}</span>
+  </div>
+  <div mat-line class="bottom-bar">
+    <span class="due-date" *ngIf="item.dueDate">
+      {{item.dueDate | date: 'yy-MM-dd'}}
+    </span>
+    <mat-icon>alarm</mat-icon>
+  </div>
+  <mat-icon [svgIcon]="avatar" mat-list-avatar class="avatar"></mat-icon>
+</mat-list-item>

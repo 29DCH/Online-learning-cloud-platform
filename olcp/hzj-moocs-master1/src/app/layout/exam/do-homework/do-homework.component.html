@@ -1,0 +1,91 @@
+<div class="bg-light">
+  <div class="container do-homework-box bg-white">
+    <div class="row">
+      <div class="col-12 do-homework-header">
+        <div class="do-homework-header-left">
+          <!--[value]="choice/(allProblem+1)*100" 显示进度条的长度-->
+          <mat-progress-bar mode="determinate" [value]="choice/(allProblem+1)*100"></mat-progress-bar>
+          <!--choice 是正在做的题目 allProblem+1 是总共的题目数量 -->
+          <span>{{choice}}/{{allProblem+1}}</span>
+        </div>
+        <div class="do-homework-header-right">
+          <!--暂停图标-->
+          <mat-icon>pause_circle_outline</mat-icon>
+          <!--做题所花的时间-->
+          <h4>00:00:00</h4>
+        </div>
+      </div>
+      <div class="col-12 choice-type choice-box">
+        <div  *ngFor="let problem of examinationPaper; let j = index">
+          <div *ngIf="j + 1 === choice">
+            <h4>
+              <!--帮助图标-->
+              <mat-icon svgIcon="help" style="color: #ff652f;"></mat-icon>
+              <!--表示题目类型, 单选题或者 是 不定项选择题-->
+              <span>[{{problem.protype}}]</span>
+            </h4>
+            <!--题目名-->
+            <p>{{problem.proname}}</p>
+            <div>
+              <mat-radio-group>
+                <div class="radio"
+                     *ngFor="let option of problem.pro.pro; let i = index"
+                     (click)="choiceClick(problem, i, j)">
+                  <!--如果题目类型是单选题, 则显示单选按钮-->
+                  <mat-radio-button
+                    *ngIf="problem.protype === '单选题'"
+                    [value]="option.content"
+                    [checked]="option.status"></mat-radio-button>
+                  <!--如果题目是不定项选择题则显示多选按钮-->
+                  <mat-checkbox
+                    *ngIf="problem.protype === '不定项选择题'"
+                    [value]="option.content"
+                    [checked]="option.status"></mat-checkbox>
+                  <!--选项内容-->
+                  <span>{{option.content}}</span>
+                </div>
+              </mat-radio-group>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 choice-box">
+        <div class="choice-box-bottom">
+          <div>
+            <span>收藏本题</span>
+            <span>标记一下</span>
+            <span>屏蔽本题</span>
+          </div>
+          <div class="choice-box-bottom-right">
+            <button mat-raised-button color="accent" (click)="submitTopic()">提前交卷</button>
+            <button mat-raised-button
+                    color="primary"
+                    (click)="choiceProblem(choice + 1)"
+                    [disabled]="choice  === allProblem + 1">下一题</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 do-homework-bottom">
+        <mat-accordion>
+          <!--[expanded]=true 表示是展开状态-->
+          <mat-expansion-panel [expanded]=true (opened)="panelOpenState = true"
+                               (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+              <mat-panel-description>
+                {{panelOpenState ? '收起答题卡' : '展开答题卡'}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div>
+              <button
+                mat-raised-button
+                *ngFor="let num of numberChoice"
+                [class.active]="num.isCheck"
+                (click)="choiceProblem(num.num)">{{num.num}}</button>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+  </div>
+</div>
+

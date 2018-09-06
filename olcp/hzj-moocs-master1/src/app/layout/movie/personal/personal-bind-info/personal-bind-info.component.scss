@@ -1,0 +1,122 @@
+.bind-info-tip {
+  background-color: #fff4e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.bind-info-tip p {
+  margin-bottom: 0;
+  font-size: .8rem;
+  color: #f56108;
+}
+
+
+
+.bind-info-tip p span {
+  margin: 0 .4rem;
+}
+
+.bind-info-tip p a {
+  margin: 0 .4rem;
+}
+
+.bind-info-tip p mat-icon{
+  width: .8rem;
+  height: .8rem;
+  cursor: pointer;
+}
+
+
+.bind-info-box .list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.bind-info-box .list-header>div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+}
+
+.bind-info-box .list-header>div:first-child p, .bind-info-box .list-header>div:first-child h5 {
+  margin-bottom: 0;
+}
+.bind-info-box .list-header>div:first-child p {
+  color: #93999f;
+  font-size: .8rem;
+}
+.bind-info-box .list-header>div:first-child p span{
+  color: #ff0000;
+}
+
+.bind-info-box .list-header>div:first-child h5 {
+  margin-right: 1rem;
+}
+
+.bind-info-box .list-header>div:last-child div mat-icon{
+  color: #008cc8;
+  height: .9rem;
+  width: .9rem;
+}
+
+.bind-info-box .list-header>div:last-child a {
+  color: #93999f;
+  font-size: .8rem;
+  margin-left: .5rem;
+  cursor: pointer;
+}
+.bind-info-box .list-header>div:last-child a:hover {
+  color: #008cc8;
+  text-decoration: none;
+}
+
+.list-menu-box mat-list mat-list-item {
+  height: 80px;
+  border-bottom: 1px solid #d9dde1;
+}
+
+.list-menu-box mat-list mat-icon {
+  display: inline-flex;
+  color: #d9d9d9;
+}
+
+.list-menu-box mat-list-item h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-menu-box mat-list-item h4 div h5 {
+  margin-bottom: .3rem;
+
+}
+
+.list-menu-box mat-list-item h4 div h5 span {
+  margin-left: .5rem;
+  color: #f01414;
+  font-size: .8rem;
+}
+
+.list-menu-box mat-list mat-list-item p {
+  color: #93999f;
+  font-size: .9rem;
+}
+
+.list-menu-box mat-list-item h4 div.personal-operation {
+  border: 1px solid #9199a1;
+  padding: .2rem .5rem;
+  cursor: pointer;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+}
+
+.list-menu-box mat-list-item .personal-operation:hover {
+  color: red;
+}

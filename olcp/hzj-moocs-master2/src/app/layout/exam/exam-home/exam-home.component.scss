@@ -1,0 +1,102 @@
+.remove-padding {
+  padding: 0px;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+}
+
+.brandImg {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.img-box {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.study-day-box {
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #31be9b;
+}
+
+.study-day-box span {
+  font-size: 3rem;
+  margin-right: .5rem;
+}
+
+ngb-carousel {
+  outline: none;
+}
+
+.header-box{
+  border-bottom: 1px dotted #aaa;
+  padding: 1.8rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+
+}
+
+.title i {
+  display: flex;
+  width: .4rem;
+  height: .4rem;
+  margin-right: .5rem;
+  background-color: #FF6547;
+}
+
+.title h5 {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+
+}
+
+.module-body {
+  padding: 2rem;
+}
+
+.content-item-box {
+  padding: 0 2rem 1rem 2rem;
+}
+
+.content-item-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.content-item-box div span {
+  margin-bottom: 2rem;
+}
+
+.content-item-box div button {
+  margin-top: 1rem;
+}

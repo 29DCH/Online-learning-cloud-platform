@@ -1,0 +1,36 @@
+.name-attest-header {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.begin-attest-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background: #f3f5f7;
+  margin-top: 1rem;
+
+}
+
+.attest-help {
+  margin-top: 1rem;
+  color: #4d555d;
+}
+
+.attest-help ol {
+  margin: 0;
+  padding: 0 0 0 1rem;
+  font-size: .9rem;
+
+}
+
+.attest-help ol li {
+  margin-bottom: .5rem;
+}
+
+.attest-help ol>li:last-child {
+  font-weight: 500;
+}

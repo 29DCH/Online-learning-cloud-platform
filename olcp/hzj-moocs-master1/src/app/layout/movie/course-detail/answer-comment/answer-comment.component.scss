@@ -1,0 +1,29 @@
+
+.answer-nav-left {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.answer-nav-left .active {
+  background: #3f51b5;
+  color: #FFFFFF;
+}
+
+.navbar-nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.answer-nav-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+
+button {
+  outline: none;
+}

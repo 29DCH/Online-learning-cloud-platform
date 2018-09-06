@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 personal-info-header">
+      <h5>个人信息</h5>
+      <div>
+        <mat-icon svgIcon="edit"></mat-icon>编辑
+      </div>
+    </div>
+    <div class="col-12 personal-info-wapper" *ngFor="let info of personal_info">
+      <div class="list-info-box">
+        <div>{{info.title}}</div>
+        <div>{{info.value}}</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+

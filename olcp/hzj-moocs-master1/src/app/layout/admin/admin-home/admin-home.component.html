@@ -1,0 +1,20 @@
+<div class="admin-container">
+  <app-admin-header (sidebarOpen)="drawer.toggle()"></app-admin-header>
+  <mat-drawer-container>
+    <!--默认是over-->
+    <mat-drawer #drawer mode="side" opened>
+      <app-admin-sidebar></app-admin-sidebar>
+    </mat-drawer>
+    <mat-drawer-content>
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+      <footer>
+        <app-footer></app-footer>
+      </footer>
+    </mat-drawer-content>
+
+  </mat-drawer-container>
+</div>
+
+

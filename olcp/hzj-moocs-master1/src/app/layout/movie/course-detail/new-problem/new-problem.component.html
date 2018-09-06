@@ -1,0 +1,32 @@
+<mat-dialog-content>
+  <div class="new-comment-header">
+    <h4>我要评论</h4>
+    <mat-icon svgIcon="close" (click)="dialogCloseClick()"></mat-icon>
+  </div>
+  <div>
+    <form
+      [formGroup]="problem"
+      (submit)="submitClick(problem, $event)"
+      class="form-box">
+      <mat-form-field class="input-full-width">
+        <input matInput placeholder="输入问题标题" formControlName="title">
+      </mat-form-field>
+    </form>
+    <div>
+      <ckeditor
+        [(ngModel)]="content"
+        (ngModelChange)="change($event)"
+        debounce="500"
+        [config]="conf">
+        <p>Hello <strong>world</strong></p>
+      </ckeditor>
+    </div>
+    <div class="new-comment-bottom">
+      <button mat-raised-button
+              type="button"
+              (click)="submitClick(problem, $event)"
+                color="primary">提交</button>
+    </div>
+  </div>
+</mat-dialog-content>
+

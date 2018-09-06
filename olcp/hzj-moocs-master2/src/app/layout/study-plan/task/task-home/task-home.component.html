@@ -1,0 +1,24 @@
+<div class="task-list">
+  <app-task-list
+    class="list-container"
+    *ngFor="let tasklist of tasklists">
+    <!--传给子组件tasklist.name-->
+    <app-task-header
+      (newTask)="launchNewTaskDialog()"
+      (moveAll)="launchCopyTaskDialog()"
+      (delete)="launchConfirmDialog()"
+      (edit)="launchNewTaskListDialog()"
+      [header]="tasklist.name"></app-task-header>
+    <!--传给子组件tasklist.tasks-->
+    <app-task-item
+      *ngFor="let task of tasklist.tasks"
+      [item]="task"
+      (taskClick)="launchUpdateTaskDialog(task)"
+    >
+    </app-task-item>
+  </app-task-list>
+</div>
+<button mat-fab type="button" class="add-button" (click)="launchNewTasListkDialog()">
+  <mat-icon>add</mat-icon>
+</button>
+

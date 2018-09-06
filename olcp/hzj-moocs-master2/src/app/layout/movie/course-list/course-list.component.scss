@@ -1,0 +1,58 @@
+mat-card {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+mat-card img {
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  border-radius: 8%;
+}
+mat-card p {
+  margin-bottom: .5rem;
+}
+
+.free-course-name {
+  width: 100%;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+mat-card p a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+mat-card p span, .free-course-summaru {
+  color: #93999F;
+  font-size: .8rem;
+  margin-right: .7rem;
+}
+
+.free-course-summaru {
+  margin-right: 0;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  //display: -webkit-box;
+  //-webkit-box-orient: vertical;
+  //-webkit-line-clamp: 3;
+  //overflow: hidden;
+  //-ms-text-overflow: ellipsis;
+  //text-overflow: ellipsis;
+}
+.center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.center mat-icon {
+  display: inline-flex;
+  width: .9rem;
+  height: .9rem;
+  color: #93999F;
+  margin-right: .2rem;
+}

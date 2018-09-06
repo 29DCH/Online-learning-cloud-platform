@@ -1,0 +1,121 @@
+.do-homework-box {
+  margin-top: 1rem;
+}
+
+.do-homework-header {
+  padding: .6rem 1.5rem;
+  background: #232c31;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .5rem .5rem 0 0;
+}
+
+
+.do-homework-header-left {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.do-homework-header-left span {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.do-homework-header-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+}
+
+.do-homework-header-right mat-icon {
+  color: #ff0000;
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+}
+
+.do-homework-header-right h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.choice-type {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+
+}
+
+.choice-type h4 span {
+  font-weight: 400;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.choice-box {
+  padding: 1rem;
+  border-bottom: 1px dashed #DDD;
+}
+
+.choice-box h4 {
+  padding: .5rem;
+  border-bottom: 1px dashed #DDD;
+  margin-bottom: .5rem;
+}
+
+.choice-box .radio {
+  padding: .5rem 1rem;
+  background: #F3F3F3;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  cursor: pointer;
+}
+
+.radio mat-checkbox {
+  margin-right: .5rem;
+}
+.choice-box .radio span:hover {
+  color: #25bb9b;
+}
+
+
+.choice-box-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choice-box-bottom .choice-box-bottom-right button {
+  margin-right: .5rem;
+}
+
+
+button {
+  outline: none;
+}
+
+.do-homework-bottom {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.do-homework-bottom mat-accordion button {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+
+}
+
+
+button.active {
+  background: #3f51b5;
+}

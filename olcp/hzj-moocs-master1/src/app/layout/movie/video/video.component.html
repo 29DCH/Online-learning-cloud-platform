@@ -1,0 +1,51 @@
+<mat-drawer-container class="video-box" autosize>
+  <mat-drawer #drawer1 mode="over" position="end" class="course-menu-box">
+    <mat-nav-list>
+      <mat-list-item>
+        <a matLine href="#">第一章</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="video-content">
+      <div class="video-content-left">
+        <vg-player>
+          <vg-overlay-play></vg-overlay-play>
+          <vg-buffering></vg-buffering>
+          <vg-scrub-bar>
+            <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+            <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>
+          </vg-scrub-bar>
+          <vg-controls>
+            <vg-play-pause></vg-play-pause>
+            <vg-playback-button></vg-playback-button>
+            <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+            <vg-scrub-bar style="pointer-events: none;"></vg-scrub-bar>
+            <vg-time-display vgProperty="left" vgFormat="mm:ss"></vg-time-display>
+            <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+            <vg-track-selector></vg-track-selector>
+            <vg-mute></vg-mute>
+            <vg-volume></vg-volume>
+            <vg-fullscreen></vg-fullscreen>
+          </vg-controls>
+
+          <video [vgMedia]="media" #media id="singleVideo" preload="auto" crossorigin>
+            <source [src]="videoUrl" type="video/mp4">
+          </video>
+        </vg-player>
+      </div>
+      <!--视频播放的右边-->
+      <div class="video-content-right">
+        <button mat-icon-button (click)="showMenu(drawer1)">
+          <mat-icon>{{arrow}}</mat-icon>
+        </button>
+      </div>
+    </div>
+  </mat-drawer-content>
+
+</mat-drawer-container>
+
+
+
+
+
