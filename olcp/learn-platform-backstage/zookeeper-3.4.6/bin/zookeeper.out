@@ -1,0 +1,12 @@
+2018-07-25 20:57:23,557 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /home/zq/zookeeper-3.4.6/bin/../conf/zoo.cfg
+2018-07-25 20:57:23,560 [myid:] - INFO  [main:QuorumPeerConfig@340] - Defaulting to majority quorums
+2018-07-25 20:57:23,561 [myid:] - ERROR [main:QuorumPeerMain@85] - Invalid config, exiting abnormally
+org.apache.zookeeper.server.quorum.QuorumPeerConfig$ConfigException: Error processing /home/zq/zookeeper-3.4.6/bin/../conf/zoo.cfg
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:123)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:101)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:78)
+Caused by: java.lang.IllegalArgumentException: /home/zq/zookeeper-3.4.6/data/myid file is missing
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parseProperties(QuorumPeerConfig.java:350)
+	at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:119)
+	... 2 more
+Invalid config, exiting abnormally

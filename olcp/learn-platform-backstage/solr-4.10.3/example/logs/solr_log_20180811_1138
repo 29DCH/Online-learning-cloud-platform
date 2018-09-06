@@ -1,0 +1,512 @@
+INFO  - 2018-08-09 01:44:04.540; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2018-08-09 01:44:04.553; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zq/solr-4.10.3/example/contexts at interval 0
+INFO  - 2018-08-09 01:44:04.556; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zq/solr-4.10.3/example/contexts/solr-jetty-context.xml
+INFO  - 2018-08-09 01:44:05.415; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-08-09 01:44:05.449; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2018-08-09 01:44:05.456; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2018-08-09 01:44:05.457; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-09 01:44:05.457; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/'
+INFO  - 2018-08-09 01:44:05.545; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zq/solr-4.10.3/example/solr/solr.xml
+INFO  - 2018-08-09 01:44:05.595; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-09 01:44:05.598; org.apache.solr.core.CoreContainer; New CoreContainer 480490520
+INFO  - 2018-08-09 01:44:05.599; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/zq/solr-4.10.3/example/solr/]
+INFO  - 2018-08-09 01:44:05.605; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2018-08-09 01:44:05.605; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2018-08-09 01:44:05.609; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2018-08-09 01:44:05.610; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2018-08-09 01:44:05.611; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2018-08-09 01:44:05.611; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2018-08-09 01:44:05.612; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2018-08-09 01:44:05.612; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2018-08-09 01:44:05.612; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2018-08-09 01:44:05.809; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2018-08-09 01:44:05.811; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2018-08-09 01:44:05.812; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2018-08-09 01:44:05.813; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2018-08-09 01:44:05.833; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-09 01:44:05.840; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/zq/solr-4.10.3/example/solr/collection1/
+INFO  - 2018-08-09 01:44:05.840; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2018-08-09 01:44:05.841; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/collection1/'
+INFO  - 2018-08-09 01:44:05.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/mysql-connector-java-5.1.39.jar' to classloader
+INFO  - 2018-08-09 01:44:05.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-extras-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.939; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2018-08-09 01:44:05.940; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.940; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.940; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2018-08-09 01:44:05.941; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.942; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2018-08-09 01:44:05.943; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.944; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2018-08-09 01:44:05.944; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2018-08-09 01:44:05.944; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2018-08-09 01:44:05.944; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.944; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.945; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.946; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-cell-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.947; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2018-08-09 01:44:05.947; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2018-08-09 01:44:05.947; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2018-08-09 01:44:05.947; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2018-08-09 01:44:05.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2018-08-09 01:44:05.948; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-clustering-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.949; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2018-08-09 01:44:05.949; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2018-08-09 01:44:05.949; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-langid-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.949; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.949; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2018-08-09 01:44:05.950; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2018-08-09 01:44:05.950; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2018-08-09 01:44:05.950; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-velocity-4.10.3.jar' to classloader
+INFO  - 2018-08-09 01:44:05.991; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-08-09 01:44:05.997; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.3
+INFO  - 2018-08-09 01:44:06.087; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2018-08-09 01:44:06.091; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+INFO  - 2018-08-09 01:44:06.139; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2018-08-09 01:44:06.588; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2018-08-09 01:44:06.595; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2018-08-09 01:44:06.596; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2018-08-09 01:44:06.638; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2018-08-09 01:44:06.641; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2018-08-09 01:44:06.699; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /home/zq/solr-4.10.3/example/solr/collection1/
+INFO  - 2018-08-09 01:44:06.714; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2018-08-09 01:44:06.720; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /home/zq/solr-4.10.3/example/solr/collection1/, dataDir=/home/zq/solr-4.10.3/example/solr/collection1/data/
+INFO  - 2018-08-09 01:44:06.722; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@6f94fa3e
+INFO  - 2018-08-09 01:44:06.741; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2018-08-09 01:44:06.741; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2018-08-09 01:44:06.751; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/zq/solr-4.10.3/example/solr/collection1/data
+INFO  - 2018-08-09 01:44:06.763; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/zq/solr-4.10.3/example/solr/collection1/data/index/
+INFO  - 2018-08-09 01:44:06.763; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/zq/solr-4.10.3/example/solr/collection1/data/index
+INFO  - 2018-08-09 01:44:06.771; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2018-08-09 01:44:06.771; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2018-08-09 01:44:06.771; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2018-08-09 01:44:06.773; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2018-08-09 01:44:06.773; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-08-09 01:44:06.825; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2018-08-09 01:44:06.833; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.834; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.834; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.835; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.840; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.840; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.841; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2018-08-09 01:44:06.842; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.848; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2018-08-09 01:44:06.850; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2018-08-09 01:44:06.851; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.851; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2018-08-09 01:44:06.852; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2018-08-09 01:44:06.852; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2018-08-09 01:44:06.852; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2018-08-09 01:44:06.853; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2018-08-09 01:44:06.853; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2018-08-09 01:44:06.853; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2018-08-09 01:44:06.854; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2018-08-09 01:44:06.857; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2018-08-09 01:44:06.859; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2018-08-09 01:44:06.866; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2018-08-09 01:44:06.866; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.866; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.866; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.867; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.867; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.867; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.867; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.867; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2018-08-09 01:44:06.876; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2018-08-09 01:44:06.877; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2018-08-09 01:44:06.878; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2018-08-09 01:44:06.878; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2018-08-09 01:44:06.879; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2018-08-09 01:44:06.893; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-08-09 01:44:06.893; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-08-09 01:44:06.923; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/zq/solr-4.10.3/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/zq/solr-4.10.3/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2018-08-09 01:44:06.923; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2018-08-09 01:44:06.944; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@7b3fae9b[collection1] main
+INFO  - 2018-08-09 01:44:06.950; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.950; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/zq/solr-4.10.3/example/solr/collection1/conf}
+INFO  - 2018-08-09 01:44:06.951; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.954; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.955; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2018-08-09 01:44:06.955; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2018-08-09 01:44:06.956; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.957; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.957; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2018-08-09 01:44:06.957; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2018-08-09 01:44:06.958; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2018-08-09 01:44:06.958; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.958; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/zq/solr-4.10.3/example/solr/collection1/conf
+INFO  - 2018-08-09 01:44:06.958; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2018-08-09 01:44:06.959; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2018-08-09 01:44:06.961; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2018-08-09 01:44:06.961; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-08-09 01:44:06.967; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-08-09 01:44:06.973; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2018-08-09 01:44:06.975; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/zq/solr-4.10.3/example/solr/collection1/conf/elevate.xml
+INFO  - 2018-08-09 01:44:07.007; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2018-08-09 01:44:07.008; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@7b3fae9b[collection1] main{StandardDirectoryReader(segments_2:3:nrt _0(4.10.3):C888)}
+INFO  - 2018-08-09 01:44:07.054; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=45 
+INFO  - 2018-08-09 01:44:07.055; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-08-09 01:44:07.055; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-08-09 01:44:07.055; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-08-09 01:44:07.057; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@7b3fae9b[collection1] main{StandardDirectoryReader(segments_2:3:nrt _0(4.10.3):C888)}
+INFO  - 2018-08-09 01:44:07.059; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2018-08-09 01:44:07.060; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zq/solr-4.10.3/example
+INFO  - 2018-08-09 01:44:07.060; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2018-08-09 01:44:07.081; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2018-08-09 01:59:45.137; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533779985129} status=0 QTime=1 
+INFO  - 2018-08-09 01:59:45.190; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1533779985166} status=0 QTime=17 
+INFO  - 2018-08-09 01:59:47.822; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1533779987814} hits=888 status=0 QTime=2 
+INFO  - 2018-08-09 03:40:18.883; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1533786018861} hits=888 status=0 QTime=1 
+INFO  - 2018-08-09 03:40:40.313; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:1021&indent=true&wt=json&_=1533786040304} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 03:40:54.531; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:1&indent=true&wt=json&_=1533786054525} hits=0 status=0 QTime=1 
+ERROR - 2018-08-09 03:41:10.125; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '"coursetailnum":1': Encountered " ":" ": "" at line 1, column 15.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:204)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1976)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '"coursetailnum":1': Encountered " ":" ": "" at line 1, column 15.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:147)
+	... 31 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 15.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:97)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 34 more
+
+INFO  - 2018-08-09 03:41:10.126; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q="coursetailnum":1&indent=true&wt=json&_=1533786070076} status=400 QTime=42 
+INFO  - 2018-08-09 03:41:35.653; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:"1021"&indent=true&wt=json&_=1533786095645} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 03:41:43.670; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:1021&indent=true&wt=json&_=1533786103663} hits=0 status=0 QTime=0 
+INFO  - 2018-08-09 03:41:50.463; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:46&indent=true&wt=json&_=1533786110453} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 03:41:53.854; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={indent=true&wt=json&_=1533786113845} hits=0 status=0 QTime=0 
+INFO  - 2018-08-09 03:42:00.099; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1533786120074} status=0 QTime=15 
+INFO  - 2018-08-09 03:42:00.219; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1533786120211} status=0 QTime=0 
+INFO  - 2018-08-09 03:42:00.826; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786120215} status=0 QTime=592 
+INFO  - 2018-08-09 03:42:00.915; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1533786120212} status=0 QTime=686 
+INFO  - 2018-08-09 03:42:05.402; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786125391} status=0 QTime=0 
+INFO  - 2018-08-09 03:42:06.933; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786126922} status=0 QTime=0 
+INFO  - 2018-08-09 03:42:07.216; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786127210} status=0 QTime=1 
+INFO  - 2018-08-09 03:42:07.450; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786127440} status=0 QTime=1 
+INFO  - 2018-08-09 03:42:07.654; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1533786127644} status=0 QTime=0 
+INFO  - 2018-08-09 03:42:11.683; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1533786131678} hits=888 status=0 QTime=0 
+INFO  - 2018-08-09 03:42:37.085; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursetailnum:10&indent=true&wt=json&_=1533786157077} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 03:42:44.904; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={indent=true&wt=json&_=1533786164895} hits=0 status=0 QTime=3 
+INFO  - 2018-08-09 03:42:48.628; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533786168619} status=0 QTime=0 
+INFO  - 2018-08-09 03:42:48.738; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1533786168650} status=0 QTime=77 
+INFO  - 2018-08-09 03:42:50.261; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1533786170255} hits=888 status=0 QTime=1 
+INFO  - 2018-08-09 04:17:26.256; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1533788246245} hits=888 status=0 QTime=1 
+INFO  - 2018-08-09 04:17:44.708; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:Go&indent=true&wt=json&_=1533788264555} hits=8 status=0 QTime=143 
+INFO  - 2018-08-09 04:18:10.681; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:Java&indent=true&wt=json&_=1533788290670} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 04:18:39.330; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&indent=true&wt=json&_=1533788319319} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 04:23:01.261; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=113 
+INFO  - 2018-08-09 04:23:10.461; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+-coursesummary:[*+TO+*]&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=1530 
+INFO  - 2018-08-09 04:23:30.339; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:go+OR+-coursesummary:[*+TO+*]&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=3 
+INFO  - 2018-08-09 04:23:35.356; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+-coursesummary:[*+TO+*]&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 04:26:05.482; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=0 
+INFO  - 2018-08-09 04:26:26.341; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=47 
+INFO  - 2018-08-09 05:17:07.264; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=1 
+INFO  - 2018-08-09 05:17:18.184; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=13 
+INFO  - 2018-08-09 05:18:42.358; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=7 
+INFO  - 2018-08-09 05:34:48.623; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:go+OR+coursesummary:go&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=9 status=0 QTime=8 
+INFO  - 2018-08-09 05:36:50.649; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:go+OR+coursesummary:go\?page%3D1&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=9 status=0 QTime=7 
+INFO  - 2018-08-09 05:36:54.902; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:go+OR+coursesummary:go\?page%3D2&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=11 status=0 QTime=7 
+INFO  - 2018-08-09 05:37:07.052; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java\?page%3D2&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=66 status=0 QTime=9 
+INFO  - 2018-08-09 05:37:22.657; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=20&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=9 
+INFO  - 2018-08-09 05:37:32.467; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=10&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=6 
+INFO  - 2018-08-09 05:37:38.498; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=7 
+INFO  - 2018-08-09 05:37:41.243; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=10&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=3 
+INFO  - 2018-08-09 05:37:43.691; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=20&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=9 
+INFO  - 2018-08-09 05:37:51.061; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=40&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=582 
+INFO  - 2018-08-09 05:38:05.792; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=100&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=3 
+INFO  - 2018-08-09 05:38:09.379; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=90&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=0 
+INFO  - 2018-08-09 05:38:13.125; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=80&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=2 
+INFO  - 2018-08-09 05:38:23.856; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=60&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=3 
+INFO  - 2018-08-09 05:38:36.219; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=70&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=0 
+INFO  - 2018-08-09 05:38:42.162; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=60&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=1 
+INFO  - 2018-08-09 05:40:22.533; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javac+OR+coursesummary:javac&hl=true&hl.simple.post=</em>&start=60&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=2 
+INFO  - 2018-08-09 05:40:29.428; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javac+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=60&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=53 status=0 QTime=1 
+INFO  - 2018-08-09 05:40:58.651; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c+OR+coursesummary:c&hl=true&hl.simple.post=</em>&start=10&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=18 status=0 QTime=6 
+INFO  - 2018-08-09 05:42:57.677; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=0 
+INFO  - 2018-08-09 06:58:22.443; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=7 
+INFO  - 2018-08-09 07:00:25.498; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533798024091} status=0 QTime=318 
+INFO  - 2018-08-09 07:00:26.826; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1533798026054} status=0 QTime=615 
+INFO  - 2018-08-09 07:03:17.161; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c+OR+coursesummary:c&hl=true&hl.simple.post=</em>&start=10&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=18 status=0 QTime=166 
+INFO  - 2018-08-09 07:03:22.246; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c+OR+coursesummary:c&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=18 status=0 QTime=293 
+INFO  - 2018-08-09 07:22:46.383; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=38 
+INFO  - 2018-08-09 07:23:24.491; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java+OR+coursesummary:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=64 status=0 QTime=473 
+INFO  - 2018-08-09 07:35:54.707; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=31 
+INFO  - 2018-08-09 08:01:18.807; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=1 
+INFO  - 2018-08-09 08:05:35.500; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=1 
+INFO  - 2018-08-09 08:07:42.923; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=120 
+INFO  - 2018-08-09 08:07:45.675; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=17 status=0 QTime=132 
+INFO  - 2018-08-09 08:26:54.478; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:入门&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=118 status=0 QTime=64 
+INFO  - 2018-08-09 08:28:52.333; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:第一季&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=41 status=0 QTime=338 
+INFO  - 2018-08-09 09:12:56.349; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=76 
+INFO  - 2018-08-09 09:14:18.211; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:入门&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=118 status=0 QTime=4 
+INFO  - 2018-08-09 09:42:51.623; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:seskfj&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=2 
+INFO  - 2018-08-09 09:42:56.560; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:undefined&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=98 
+INFO  - 2018-08-09 09:45:14.081; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:undefined&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=4 
+INFO  - 2018-08-09 09:45:34.366; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:undefined&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=1 
+INFO  - 2018-08-09 09:45:39.047; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=41 
+INFO  - 2018-08-09 10:18:14.063; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=150 
+INFO  - 2018-08-09 10:18:26.802; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=59 
+INFO  - 2018-08-09 10:20:11.417; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=269 
+INFO  - 2018-08-09 10:20:32.580; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=560 
+INFO  - 2018-08-09 10:21:03.996; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=125 
+INFO  - 2018-08-09 10:21:15.662; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=25 
+INFO  - 2018-08-09 10:21:32.666; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=7 
+INFO  - 2018-08-09 11:08:47.908; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=218 
+INFO  - 2018-08-09 11:09:39.151; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=24 
+INFO  - 2018-08-09 11:10:05.968; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=8 
+INFO  - 2018-08-09 11:10:13.368; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=47 
+INFO  - 2018-08-09 11:10:46.044; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=475 
+INFO  - 2018-08-09 11:11:01.143; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=24 
+INFO  - 2018-08-09 11:11:14.869; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=10 
+INFO  - 2018-08-09 11:11:36.520; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=235 
+INFO  - 2018-08-09 11:12:22.785; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=137 
+INFO  - 2018-08-09 11:13:14.147; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java基础入门&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=230 status=0 QTime=231 
+INFO  - 2018-08-09 11:19:53.207; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=268 
+INFO  - 2018-08-09 11:21:38.911; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=24 
+INFO  - 2018-08-09 11:22:01.538; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=132 
+INFO  - 2018-08-09 11:24:35.903; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=638 
+INFO  - 2018-08-09 11:25:35.516; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=35 
+INFO  - 2018-08-09 11:26:06.999; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=25 
+INFO  - 2018-08-09 11:27:23.522; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=2 
+INFO  - 2018-08-09 11:28:06.521; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 11:28:25.672; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=197 
+INFO  - 2018-08-09 11:29:10.967; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=845 
+INFO  - 2018-08-09 11:29:44.102; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=903 
+INFO  - 2018-08-09 11:30:09.269; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=604 
+INFO  - 2018-08-09 11:30:49.999; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=22 
+INFO  - 2018-08-09 11:31:21.006; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=40 
+INFO  - 2018-08-09 11:31:55.880; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=28 
+INFO  - 2018-08-09 11:32:38.650; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=24 
+INFO  - 2018-08-09 11:32:55.128; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=5 
+INFO  - 2018-08-09 11:36:13.461; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 11:36:52.320; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=61 
+INFO  - 2018-08-09 11:38:34.335; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:38:56.795; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:41:27.694; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 11:42:02.591; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=8 
+INFO  - 2018-08-09 11:42:24.176; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:45:23.472; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=63 
+INFO  - 2018-08-09 11:46:05.375; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:46:25.632; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=133 
+INFO  - 2018-08-09 11:46:48.881; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=54 
+INFO  - 2018-08-09 11:47:11.370; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=63 
+INFO  - 2018-08-09 11:47:58.816; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=600 
+INFO  - 2018-08-09 11:48:35.229; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=486 
+INFO  - 2018-08-09 11:48:51.008; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=5 
+INFO  - 2018-08-09 11:49:38.047; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=2 
+INFO  - 2018-08-09 11:49:52.341; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=3 
+INFO  - 2018-08-09 11:50:13.338; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=139 
+INFO  - 2018-08-09 11:50:44.339; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:51:31.732; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=124 
+INFO  - 2018-08-09 11:51:49.656; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=10 
+INFO  - 2018-08-09 11:52:15.994; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=25 
+INFO  - 2018-08-09 11:52:50.511; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=7 
+INFO  - 2018-08-09 11:53:39.373; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=140 
+INFO  - 2018-08-09 11:54:32.991; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=154 
+INFO  - 2018-08-09 11:55:14.492; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=39 
+INFO  - 2018-08-09 11:55:48.492; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=7 
+INFO  - 2018-08-09 11:56:04.503; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=48 status=0 QTime=6 
+INFO  - 2018-08-09 11:58:24.341; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=36 
+INFO  - 2018-08-09 11:59:15.885; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-09 12:00:09.438; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=144 
+INFO  - 2018-08-09 12:00:30.114; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=17 status=0 QTime=14 
+INFO  - 2018-08-09 12:00:33.127; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:"c++"&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=17 status=0 QTime=136 
+INFO  - 2018-08-09 12:00:43.413; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=17 status=0 QTime=24 
+INFO  - 2018-08-09 12:00:47.744; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=25 
+INFO  - 2018-08-09 12:00:50.771; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:"c++"&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=17 status=0 QTime=20 
+INFO  - 2018-08-09 12:00:59.759; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javaScript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=124 
+INFO  - 2018-08-09 12:02:44.012; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javaScript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=13 
+INFO  - 2018-08-09 12:04:50.099; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=132 
+INFO  - 2018-08-09 12:22:22.311; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:cc&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+color%3D'red'>} hits=0 status=0 QTime=465 
+INFO  - 2018-08-09 15:33:01.520; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=113 
+INFO  - 2018-08-09 15:42:55.810; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=31 
+INFO  - 2018-08-09 15:57:25.248; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=422 
+INFO  - 2018-08-09 16:23:46.213; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=52 
+INFO  - 2018-08-09 16:40:12.275; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=176 
+INFO  - 2018-08-09 16:51:28.468; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=31 
+INFO  - 2018-08-09 17:02:49.175; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=352 
+INFO  - 2018-08-09 17:10:21.576; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=121 
+INFO  - 2018-08-09 17:13:24.442; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=17 
+INFO  - 2018-08-09 17:31:36.685; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=2 
+INFO  - 2018-08-09 18:41:25.055; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=32 
+INFO  - 2018-08-09 19:01:06.699; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=30 
+INFO  - 2018-08-09 19:04:53.973; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=26 
+INFO  - 2018-08-09 19:17:23.298; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=1 
+INFO  - 2018-08-09 19:42:39.911; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=0 
+INFO  - 2018-08-09 20:10:51.421; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=1 
+INFO  - 2018-08-09 20:35:18.520; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=207 
+INFO  - 2018-08-09 21:14:24.678; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=11 
+INFO  - 2018-08-09 21:25:14.322; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=64 
+INFO  - 2018-08-09 21:31:52.627; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=81 
+INFO  - 2018-08-09 23:34:02.355; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=15 
+INFO  - 2018-08-10 00:22:31.349; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=138 
+INFO  - 2018-08-10 01:00:07.694; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=337 
+INFO  - 2018-08-10 01:10:15.850; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=39 
+INFO  - 2018-08-10 01:22:21.722; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=80 
+INFO  - 2018-08-10 01:43:03.356; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=111 
+INFO  - 2018-08-10 01:48:17.061; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=37 
+INFO  - 2018-08-10 06:20:19.073; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&indexInfo=true&wt=javabin&version=2} status=0 QTime=84 
+INFO  - 2018-08-10 06:26:00.746; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=2571 
+INFO  - 2018-08-10 06:26:47.099; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=4704 
+INFO  - 2018-08-10 06:27:06.519; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javascript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=1 
+INFO  - 2018-08-10 06:28:41.727; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javascript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=67 
+INFO  - 2018-08-10 06:30:03.910; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javascript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=34 
+INFO  - 2018-08-10 06:30:11.045; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:javascript&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=7 status=0 QTime=1 
+INFO  - 2018-08-10 06:31:04.123; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-10 06:31:24.339; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-10 06:31:29.663; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=2 
+INFO  - 2018-08-10 06:31:33.570; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=2 
+INFO  - 2018-08-10 06:31:35.805; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-10 07:33:01.622; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-10 07:44:19.978; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:c&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=17 status=0 QTime=59 
+INFO  - 2018-08-10 07:44:26.283; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:.&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=154 
+INFO  - 2018-08-10 07:46:07.448; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:a&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=345 
+INFO  - 2018-08-10 07:46:19.439; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:ja&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=1 
+INFO  - 2018-08-10 07:46:23.267; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:jav&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=122 
+INFO  - 2018-08-10 07:46:25.148; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=2 
+INFO  - 2018-08-10 07:46:50.820; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:jva&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=1 
+INFO  - 2018-08-10 07:46:55.138; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:ja&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=0 
+INFO  - 2018-08-10 07:46:59.008; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=56 
+INFO  - 2018-08-10 07:47:56.492; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:a&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=0 status=0 QTime=1 
+INFO  - 2018-08-10 07:49:17.097; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/select params={q=coursename:java&hl=true&hl.simple.post=</em>&start=0&hl.fragsize=10000&sort=coursestudypeople+desc,coursestudypeople+desc&hl.fl=*&rows=10&wt=javabin&version=2&hl.simple.pre=<em+style%3D'color:+red;'>} hits=48 status=0 QTime=1 
+INFO  - 2018-08-11 03:11:14.680; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2018-08-11 03:11:15.669; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war
+INFO  - 2018-08-11 03:11:17.557; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=480490520
+INFO  - 2018-08-11 03:11:18.234; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@499bfd2a
+INFO  - 2018-08-11 03:11:18.715; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=298803,transaction_logs_total_number=1}
+INFO  - 2018-08-11 03:11:18.965; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2018-08-11 03:11:19.031; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2018-08-11 03:11:19.031; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2018-08-11 03:11:24.059; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2018-08-11 03:11:30.788; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2018-08-11 03:11:31.023; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/zq/solr-4.10.3/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/zq/solr-4.10.3/example/solr/collection1/data/index;done=false>>]
+INFO  - 2018-08-11 03:11:31.156; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/zq/solr-4.10.3/example/solr/collection1/data/index
+INFO  - 2018-08-11 03:11:31.281; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/zq/solr-4.10.3/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/zq/solr-4.10.3/example/solr/collection1/data;done=false>>]
+INFO  - 2018-08-11 03:11:31.281; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/zq/solr-4.10.3/example/solr/collection1/data
+INFO  - 2018-08-11 03:11:33.486; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war

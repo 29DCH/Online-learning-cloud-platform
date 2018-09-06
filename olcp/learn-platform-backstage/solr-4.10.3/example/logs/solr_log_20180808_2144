@@ -1,0 +1,380 @@
+INFO  - 2018-08-08 13:41:17.092; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2018-08-08 13:41:17.114; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zq/solr-4.10.3/example/contexts at interval 0
+INFO  - 2018-08-08 13:41:17.118; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zq/solr-4.10.3/example/contexts/solr-jetty-context.xml
+INFO  - 2018-08-08 13:41:17.805; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-08-08 13:41:17.840; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2018-08-08 13:41:17.847; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2018-08-08 13:41:17.847; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-08 13:41:17.848; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/'
+INFO  - 2018-08-08 13:41:17.932; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zq/solr-4.10.3/example/solr/solr.xml
+INFO  - 2018-08-08 13:41:17.972; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-08 13:41:17.976; org.apache.solr.core.CoreContainer; New CoreContainer 539690370
+INFO  - 2018-08-08 13:41:17.976; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/zq/solr-4.10.3/example/solr/]
+INFO  - 2018-08-08 13:41:17.983; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2018-08-08 13:41:17.983; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2018-08-08 13:41:17.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2018-08-08 13:41:17.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2018-08-08 13:41:17.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2018-08-08 13:41:17.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2018-08-08 13:41:17.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2018-08-08 13:41:17.989; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2018-08-08 13:41:17.989; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2018-08-08 13:41:18.138; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2018-08-08 13:41:18.140; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2018-08-08 13:41:18.141; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2018-08-08 13:41:18.142; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2018-08-08 13:41:18.170; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zq/solr-4.10.3/example/solr
+INFO  - 2018-08-08 13:41:18.178; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/zq/solr-4.10.3/example/solr/collection1/
+INFO  - 2018-08-08 13:41:18.178; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2018-08-08 13:41:18.181; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/collection1/'
+INFO  - 2018-08-08 13:41:18.181; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.182; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/mysql-connector-java-5.1.39.jar' to classloader
+INFO  - 2018-08-08 13:41:18.182; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-extras-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.241; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.242; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.243; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.244; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2018-08-08 13:41:18.245; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2018-08-08 13:41:18.246; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.246; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2018-08-08 13:41:18.246; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.246; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2018-08-08 13:41:18.246; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2018-08-08 13:41:18.247; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.247; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.247; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.248; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-cell-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.248; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2018-08-08 13:41:18.249; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2018-08-08 13:41:18.249; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2018-08-08 13:41:18.249; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2018-08-08 13:41:18.249; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.249; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.250; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.250; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2018-08-08 13:41:18.250; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-clustering-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.251; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2018-08-08 13:41:18.251; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2018-08-08 13:41:18.251; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-langid-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.252; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.252; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2018-08-08 13:41:18.252; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2018-08-08 13:41:18.252; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2018-08-08 13:41:18.252; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zq/solr-4.10.3/dist/solr-velocity-4.10.3.jar' to classloader
+INFO  - 2018-08-08 13:41:18.304; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-08-08 13:41:18.310; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.3
+INFO  - 2018-08-08 13:41:18.411; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2018-08-08 13:41:18.416; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+INFO  - 2018-08-08 13:41:18.450; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+ERROR - 2018-08-08 13:41:18.522; org.apache.solr.schema.FieldTypePluginLoader; Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+org.apache.solr.common.SolrException: Error loading class 'org.wltea.analyzer.lucene.IKAnalyzer'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:421)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:263)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.wltea.analyzer.lucene.IKAnalyzer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 18 more
+ERROR - 2018-08-08 13:41:18.534; org.apache.solr.core.CoreContainer; Error creating core [collection1]: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	... 12 more
+Caused by: org.apache.solr.common.SolrException: Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:288)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.wltea.analyzer.lucene.IKAnalyzer'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:421)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:263)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: org.wltea.analyzer.lucene.IKAnalyzer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 18 more
+INFO  - 2018-08-08 13:41:18.536; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zq/solr-4.10.3/example
+INFO  - 2018-08-08 13:41:18.536; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2018-08-08 13:41:18.576; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+ERROR - 2018-08-08 13:41:27.056; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	... 12 more
+Caused by: org.apache.solr.common.SolrException: Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:288)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.wltea.analyzer.lucene.IKAnalyzer'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:421)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:263)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: org.wltea.analyzer.lucene.IKAnalyzer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 18 more
+
+ERROR - 2018-08-08 13:41:28.444; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	... 12 more
+Caused by: org.apache.solr.common.SolrException: Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:288)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.wltea.analyzer.lucene.IKAnalyzer'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:421)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:263)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: org.wltea.analyzer.lucene.IKAnalyzer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 18 more
+
+ERROR - 2018-08-08 13:42:17.471; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	... 12 more
+Caused by: org.apache.solr.common.SolrException: Cannot load analyzer: org.wltea.analyzer.lucene.IKAnalyzer
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:288)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.wltea.analyzer.lucene.IKAnalyzer'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:421)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:263)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: org.wltea.analyzer.lucene.IKAnalyzer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 18 more
+
+INFO  - 2018-08-08 13:44:16.042; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2018-08-08 13:44:16.042; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war
+INFO  - 2018-08-08 13:44:17.043; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=539690370
+INFO  - 2018-08-08 13:44:17.046; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war

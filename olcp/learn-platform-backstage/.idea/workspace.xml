@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/article.java" line="68" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67f9b02d-85df-4dac-b56e-01eaa06fc1f9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/handler/Directories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/handler/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/common/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/common/HttpClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/adminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/adminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/courseclassificationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/courseclassificationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursehot1Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursehot1Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursehotDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursehotDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursenew1Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursenew1Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursenewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/coursenewDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/courseclassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/courseclassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot1.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew1.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/filter/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/filter/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/handler/SpiderHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/handler/SpiderHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/adminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/adminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/courseclassificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/courseclassificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursehot1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursehot1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursehotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursehotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursenew1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursenew1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursenewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/coursenewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/adminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/adminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/courseclassificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/courseclassificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursehot1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursehot1ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursehotServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursehotServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursenew1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursenew1ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursenewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/coursenewServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userService.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/Course1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/Course1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/olcp-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/olcp-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/olcp-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/olcp-provider/target/" />
+    <ignored path="$PROJECT_DIR$/olcp-wechat/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_learning_platform@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_learning_platform@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_learning_platform@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="online_learning_platform: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>answerDao1</find>
+      <find>long</find>
+      <find>from</find>
+      <find>date</find>
+      <find>answer</find>
+      <find>problemDao1</find>
+      <find>int</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Long</replace>
+      <replace>ufrom</replace>
+      <replace>String</replace>
+      <replace>exam</replace>
+      <replace>proansDao</replace>
+      <replace>Integer</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Online learning cloud platform/Pursue knowledge Online learning cloud platform" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Online learning cloud platform/Pursue knowledge Online learning cloud platform1" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Online learning cloud platform/Pursue_Knowledge Online Learning Cloud Platform" value="PREVIEW" />
+        <entry key="$USER_HOME$/learn" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/search1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/Search1Controller.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/search1Service.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/Generator.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/article.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/admin.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/courseclassification.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursehot1.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew1.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/search1.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/yquestionDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/yquestionService.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/yquestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/AnswerController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/search1Dao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/YquestionController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/yquestion.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/userexam.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/examDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserexamController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userexamDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userexamService.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userexamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/user.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userService.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/UploadUtil.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/video.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/collection.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/record.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/videoDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/videoService.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/videoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/VideoController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/imageController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/Const.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/RecordController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/collectionService.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/CollectionController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/collectionDao.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/collectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/Course1Controller.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminProansController.java" />
+        <option value="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="710" />
+    <option name="y" value="143" />
+    <option name="width" value="1210" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn platform" type="462c0819:PsiDirectoryNode" />
+              <item name="olcp-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/java课设/mall-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="olcp.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity" />
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/pojo" />
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/handler" />
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin" />
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils" />
+      <recent name="$PROJECT_DIR$/olcp-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/olcp-provider" />
+      <recent name="$PROJECT_DIR$/olcp-consumer" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="articleDaoTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="olcp-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="olcp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="olcp.dao" />
+      <option name="MAIN_CLASS_NAME" value="olcp.dao.articleDaoTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="olcp-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="olcp.ClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="olcp-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="olcp.ServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.ServerApplication" />
+      <item itemvalue="JUnit.articleDaoTest.findById" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.articleDaoTest.findById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67f9b02d-85df-4dac-b56e-01eaa06fc1f9" name="Default" comment="" />
+      <created>1532519776256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532519776256</updated>
+      <workItem from="1532519786021" duration="90775000" />
+      <workItem from="1532778664346" duration="392000" />
+      <workItem from="1532779217416" duration="9142000" />
+      <workItem from="1532832822707" duration="13339000" />
+      <workItem from="1532853354427" duration="40902000" />
+      <workItem from="1532965225151" duration="1084000" />
+      <workItem from="1532998906223" duration="13600000" />
+      <workItem from="1533024054888" duration="2887000" />
+      <workItem from="1533035613974" duration="13331000" />
+      <workItem from="1533084983941" duration="33375000" />
+      <workItem from="1533131991665" duration="2015000" />
+      <workItem from="1533173359329" duration="36680000" />
+      <workItem from="1533257872111" duration="28041000" />
+      <workItem from="1533349017029" duration="86258000" />
+      <workItem from="1533566584333" duration="6581000" />
+      <workItem from="1533605061087" duration="39707000" />
+      <workItem from="1533691043486" duration="24810000" />
+      <workItem from="1533776363696" duration="80394000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1532852697458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532852697458</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.0">
+      <created>1532853164129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532853164129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.0">
+      <created>1532853240142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532853240142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.0">
+      <created>1532853294317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532853294317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.1">
+      <created>1532853372058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532853372058</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.1.1">
+      <created>1532854192332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532854192332</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="articleDaoTest_findById - 2018.08.07 at 17h 11m 17s.xml">
+      <configuration name="articleDaoTest.findById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="articleDaoTest_findById - 2018.08.07 at 17h 30m 27s.xml">
+      <configuration name="articleDaoTest.findById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="articleDaoTest_findById - 2018.08.07 at 17h 31m 50s.xml">
+      <configuration name="articleDaoTest.findById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="523313000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053364" side_tool="true" weight="0.96069866" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32977587" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.2497332" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3995633" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32969433" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.30240175" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3286026" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.4994664" weight="0.29912663" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.87772924" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20704375" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32977587" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.30240175" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32969433" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <MESSAGE value="1.1" />
+    <MESSAGE value="1.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/notesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/yquestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3126">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2433#2434#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2737#2738#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2834#2835#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#2915#2916#0" expanded="true" />
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#2980#2981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/coursenew1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1372">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/disscuss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/userexam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="183" column="29" lean-forward="true" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2683#2684#0" expanded="true" />
+            <element signature="e#2723#2724#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2891#2892#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2949#2950#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+            <element signature="e#3021#3022#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#3169#3170#0" expanded="true" />
+            <element signature="e#3206#3207#0" expanded="true" />
+            <element signature="e#3238#3239#0" expanded="true" />
+            <element signature="e#3289#3290#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+            <element signature="e#3365#3366#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#3441#3442#0" expanded="true" />
+            <element signature="e#3479#3480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/examDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/yquestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/yquestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userexamDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userexamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userexamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserexamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4424">
+          <caret line="227" column="18" selection-start-line="227" selection-start-column="18" selection-end-line="227" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1204">
+          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+          <folding>
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/proans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="160" column="36" selection-start-line="160" selection-start-column="36" selection-end-line="160" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2403#2404#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
+            <element signature="e#2680#2681#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+            <element signature="e#2798#2799#0" expanded="true" />
+            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#2880#2881#0" expanded="true" />
+            <element signature="e#2916#2917#0" expanded="true" />
+            <element signature="e#2973#2974#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3060#3061#0" expanded="true" />
+            <element signature="e#3093#3094#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3189#3190#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3441#3442#0" expanded="true" />
+            <element signature="e#3491#3492#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#3753#3754#0" expanded="true" />
+            <element signature="e#3805#3806#0" expanded="true" />
+            <element signature="e#3858#3859#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3973#3974#0" expanded="true" />
+            <element signature="e#4026#4027#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4108#4109#0" expanded="true" />
+            <element signature="e#4141#4142#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3062">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/entity/video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userfansDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/videoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/disscussService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/examServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/AnswerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/YquestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/UploadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/videoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/videoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/imageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4050">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/filter/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/answerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/userDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/yquestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/collectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/dao/collectionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/disscussServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="45" column="10" selection-start-line="44" selection-start-column="4" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/service/impl/collectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/CollectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/user/Course1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2604">
+          <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="166" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/web/admin/adminProansController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/olcp-consumer/src/main/java/olcp/utils/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9392">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <marker date="1533900410878" expanded="true" signature="1519:1941" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>olcp-wechat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

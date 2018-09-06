@@ -1,0 +1,140 @@
+1    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+15   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/zq/solr-4.10.3/example/contexts at interval 0
+19   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/zq/solr-4.10.3/example/contexts/solr-jetty-context.xml
+742  [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+777  [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+818  [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+818  [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/zq/solr-4.10.3/example/solr
+819  [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/'
+916  [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/zq/solr-4.10.3/example/solr/solr.xml
+1171 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /home/zq/solr-4.10.3/example/solr
+1179 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 480490520
+1179 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/zq/solr-4.10.3/example/solr/]
+1186 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1187 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1190 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1190 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1191 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1191 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1191 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1393 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+1395 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1395 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1396 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+1417 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /home/zq/solr-4.10.3/example/solr
+1422 [main] INFO  org.apache.solr.core.CoresLocator  – Found core collection1 in /home/zq/solr-4.10.3/example/solr/collection1/
+1423 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+1424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/zq/solr-4.10.3/example/solr/collection1/'
+1424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-4.10.3.jar' to classloader
+1425 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/mysql-connector-java-5.1.39.jar' to classloader
+1425 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/example/solr/collection1/lib/solr-dataimporthandler-extras-4.10.3.jar' to classloader
+1479 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+1480 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+1480 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+1480 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+1481 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jdom-1.0.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/rome-0.9.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+1482 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xz-1.4.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+1483 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+1484 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+1485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/dist/solr-cell-4.10.3.jar' to classloader
+1485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+1485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+1485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+1485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+1486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+1486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+1486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+1486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+1486 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/dist/solr-clustering-4.10.3.jar' to classloader
+1487 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+1487 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+1487 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/dist/solr-langid-4.10.3.jar' to classloader
+1487 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+1487 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+1488 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/velocity-1.7.jar' to classloader
+1488 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+1488 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/zq/solr-4.10.3/dist/solr-velocity-4.10.3.jar' to classloader
+1533 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrIndexConfig  – IndexWriter infoStream solr logging is enabled
+1539 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.3
+1631 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1637 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+1672 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [collection1] Schema name=example
+1735 [coreLoadExecutor-5-thread-1] ERROR org.apache.solr.core.CoreContainer  – Error creating core [collection1]: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core collection1: Plugin init failure for [schema.xml] fieldType "text_ik": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'. Schema file is /home/zq/solr-4.10.3/example/solr/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_ik": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:486)
+	... 12 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:177)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:362)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:86)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:43)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.lucene.analysis.ik.IKTokenizerFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:593)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:342)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:335)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:151)
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: org.apache.lucene.analysis.ik.IKTokenizerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 21 more
+1739 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/zq/solr-4.10.3/example
+1739 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+1756 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+18956 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown SocketConnector@0.0.0.0:8983
+18957 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war
+19958 [ShutdownMonitor] INFO  org.apache.solr.core.CoreContainer  – Shutting down CoreContainer instance=480490520
+19963 [ShutdownMonitor] INFO  org.eclipse.jetty.server.handler.ContextHandler  – stopped o.e.j.w.WebAppContext{/solr,file:/home/zq/solr-4.10.3/example/solr-webapp/webapp/},/home/zq/solr-4.10.3/example/webapps/solr.war

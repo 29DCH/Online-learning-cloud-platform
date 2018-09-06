@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<dataConfig>   
+<dataSource type="JdbcDataSource"   
+          driver="com.mysql.jdbc.Driver"   
+          url="jdbc:mysql://localhost:3306/online_learning_platform"   
+          user="root"   
+          password="19981028"
+          batchSize="-1"/>   
+<document name="full_import">   
+    <entity name="coursenew1" pk="courseid1" query="SELECT courseid1,coursesummary,coursetype,coursedifficulty,coursestudypeople,coursename,picturepath,coursetailnum FROM coursenew1">
+         <field column="courseid1" name="id" required="true"/>
+         <field column="coursesummary" name="coursesummary"/>
+         <field column="coursetype" name="coursetype"/>
+         <field column="coursedifficulty" name="coursedifficulty"/>
+         <field column="coursestudypeople" name="coursestudypeople"/>
+         <field column="coursename" name="coursename"/>
+         <field column="picturepath" name="picturepath"/>
+         <field column="coursetailnum" name="coursetailnum"/>
+    </entity>   
+</document>   
+</dataConfig>
