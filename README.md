@@ -1,5 +1,9 @@
 # Online-learning-cloud-platform
 在线学习平台，前端主要技术：Angular,后端主要技术：springboot
+
+
+
+
 配置一下数据库,前后端交互检测一下就ok了,前后端都是完全分离开发的
 
 
